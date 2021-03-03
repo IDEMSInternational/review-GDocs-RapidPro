@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require("path");
-var input_path = path.join(__dirname, "./shared_folders//folders_IDs.json");
+var input_path = path.join(__dirname, "../../files/review-by-country/Malaysia/folders_IDs.json");
 var json_string = fs.readFileSync(input_path).toString();
 var folders_IDs = JSON.parse(json_string);
 
@@ -23,7 +23,7 @@ for (var fld in folders_IDs){
 
 
 external_folders_urls = JSON.stringify(external_folders_urls, null, 2);
-var output_path = path.join(__dirname, "./shared_folders//external_folders_urls.json");
+var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/external_folders_urls.json");
 fs.writeFile(output_path, external_folders_urls, function (err, result) {
     if (err) console.log('error', err);
 });

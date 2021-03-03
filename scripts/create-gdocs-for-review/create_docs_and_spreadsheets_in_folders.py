@@ -44,7 +44,7 @@ def main():
     
     # create external folder
     file_metadata = {
-        'name': 'ParenText Moa',
+        'name': 'ParentText Malaysia',
         'mimeType': 'application/vnd.google-apps.folder'
     }
     folder_file = drive_service.files().create(body=file_metadata,
@@ -54,13 +54,13 @@ def main():
 
     # get names of the JSON files for docs
     
-    doc_file_names = [f for f in listdir('./JSON_files') if isfile(join('./JSON_files', f))]
+    doc_file_names = [f for f in listdir('../../files/review-by-country/Malaysia/json-files/') if isfile(join('../../files/review-by-country/Malaysia/json-files/', f))]
     doc_flows_names = [line.strip('\n').replace('PLH - ','') for line in doc_file_names]
     doc_flows_names = [line[:-5] for line in doc_flows_names] # remove .json from string
 
     # get names of the csv files for sheets
     
-    sheet_file_names = [f for f in listdir('./csv_files') if isfile(join('./csv_files', f))]
+    sheet_file_names = [f for f in listdir('../../files/review-by-country/Malaysia/csv-files/') if isfile(join('../../files/review-by-country/Malaysia/csv-files/', f))]
     sheet_flows_names = [line.strip('\n') for line in sheet_file_names]
     sheet_flows_names = [line[:-4] for line in sheet_flows_names] # remove .csv from string
 
@@ -128,7 +128,7 @@ def main():
     # save the IDS of the created folders
     folders_IDs['ParenText'] = parentext_folder_id
 
-    with open('./folders_IDs.json', 'w') as outfile:
+    with open('../../files/review-by-country/Malaysia/folders_IDs.json', 'w') as outfile:
         json.dump(folders_IDs, outfile,indent=4)
 
 
@@ -176,7 +176,7 @@ def main():
         
 
         
-        csv_file_path = './csv_files/' + sheet_file_names[fl]
+        csv_file_path = '../../files/review-by-country/Malaysia/csv-files/' + sheet_file_names[fl]
 
         spreadsheet_file = export_csv_file(csv_file_path,title)
         print('Created spreadsheet with title: ' + title)
@@ -392,7 +392,7 @@ def main():
         files_urls[curr_flow] = "https://docs.google.com/document/d/" + DOCUMENT_ID + "/edit"
     
         # load json file 
-        with open('./JSON_files/' + doc_file_names[fl], encoding="utf8") as json_file:
+        with open('../../files/review-by-country/Malaysia/json-files/' + doc_file_names[fl], encoding="utf8") as json_file:
             data = json.load(json_file)
     
    
@@ -423,11 +423,11 @@ def main():
 
 
     #create files with files IDS and urls
-    with open('./files_IDs.json', 'w') as outfile:
-        json.dump(files_IDs, outfile)
+    with open('../../files/review-by-country/Malaysia/files_IDs.json', 'w') as outfile:
+        json.dump(files_IDs, outfile,indent=2)
 
-    with open('./files_urls.json', 'w') as outfile:
-        json.dump(files_urls, outfile)
+    with open('../../files/review-by-country/Malaysia/files_urls.json', 'w') as outfile:
+        json.dump(files_urls, outfile,indent=2)
 
 
 

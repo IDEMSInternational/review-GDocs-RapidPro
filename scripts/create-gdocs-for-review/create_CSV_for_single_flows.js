@@ -3,7 +3,7 @@ var fs = require('fs');
 var path = require("path");
 var converter = require("json-2-csv");
 
-var input_path = path.join(__dirname, "../products/covid-19-parenting/development/plh_master.json");
+var input_path = path.join(__dirname, "../../files/input-flows/plh_international_flavour.json");
 var full_json_string = fs.readFileSync(input_path).toString();
 var full_obj = JSON.parse(full_json_string);
 
@@ -15,7 +15,7 @@ var obj = extract_bits_to_be_translated(full_obj);
 var flows_for_spreadsheet = [];
 
 file_1 = {};
-file_1.list_of_flows = ["PLH - Welcome - Entry", "PLH - Welcome - Initial registration", "PLH - Welcome - Tips"];
+file_1.list_of_flows = ["PLH - Welcome - Entry", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Tips"];
 file_1.name_of_file = "Welcome - Welcome";
 flows_for_spreadsheet.push(file_1);
 
@@ -25,7 +25,7 @@ file_2.name_of_file = "Survey - Behaviour";
 flows_for_spreadsheet.push(file_2);
 
 file_3 = {};
-file_3.list_of_flows = ["PLH - Survey - Parenting", "PLH - Survey - Parenting - Questions"];
+file_3.list_of_flows = ["PLH - Survey - Parenting", "PLH - Survey - Parenting - Questions & Comparison"];
 file_3.name_of_file = "Survey - Parenting";
 flows_for_spreadsheet.push(file_3);
 
@@ -50,7 +50,7 @@ file_7.name_of_file = "Supportive - Praise";
 flows_for_spreadsheet.push(file_7);
 
 file_8 = {};
-file_8.list_of_flows = ["PLH - Supportive - Covid", "PLH - Supportive - Development", "PLH - Supportive - Disabilities", "PLH - Supportive - Family", "PLH - Supportive - Help reminder", "PLH - Supportive - Share", "PLH - Supportive - Activities", "PLH - Supportive - Activities for babies", "PLH - Supportive - Behave reminder", "PLH - Supportive - Children reminder"];
+file_8.list_of_flows = ["PLH - Supportive - Covid", "PLH - Supportive - Development", "PLH - Supportive - Disabilities", "PLH - Supportive - Family", "PLH - Supportive - Help reminder", "PLH - Supportive - Share", "PLH - Supportive - Activities", "PLH - Supportive - Activities for babies", "PLH - Supportive - Behave reminder", "PLH - Supportive - Children reminder", "PLH - Supportive - Budget"];
 file_8.name_of_file = "Supportive - Other";
 flows_for_spreadsheet.push(file_8);
 
@@ -66,14 +66,14 @@ flows_for_spreadsheet.push(file_10);
 
 
 file_11 = {};
-file_11.list_of_flows = ["PLH - Help - Entry", "PLH - Help - Children", "PLH - Help - Settings", "PLH - Help - Stress", "PLH - Help - Access toolkit", "PLH - Internal - Print parenting toolkits"];
+file_11.list_of_flows = ["PLH - Help - Entry", "PLH - Help - Children", , "PLH - Help - Stress","PLH - Help - COVID referrals", "PLH - Help - Access toolkit", "PLH - Internal - Print parenting toolkits"];
 file_11.name_of_file = "Help - Help";
 flows_for_spreadsheet.push(file_11);
 
 
 
 file_12 = {};
-file_12.list_of_flows = ["PLH - Help - Settings - Change age group for tips", "PLH - Help - Settings - Language", "PLH - Help - Settings - Leave the program", "PLH - Help - Settings - Manage information", "PLH - Help - Settings - Manage information children", "PLH - Internal - Print children age group string","PLH - Help - Settings - Manage information user", "PLH - Help - Settings - Message timing", "PLH - Help - Settings - Type of media content"];
+file_12.list_of_flows = ["PLH - Help - Settings - Entry", "PLH - Help - Settings - Change age group for tips", "PLH - Help - Settings - Language", "PLH - Help - Settings - Leave the program", "PLH - Help - Settings - Manage information", "PLH - Help - Settings - Manage information children", "PLH - Internal - Print children age group string","PLH - Help - Settings - Manage information user", "PLH - Help - Settings - Message timing", "PLH - Help - Settings - Type of media content"];
 file_12.name_of_file = "Help - Settings - Settings";
 flows_for_spreadsheet.push(file_12);
 
@@ -219,7 +219,7 @@ async function outputFiles() {
         }
 
         //files_rows.push(rows)
-        var output_path = path.join(__dirname, "../gdoc/csv_files/" + flows_for_spreadsheet[N_file].name_of_file + ".csv");
+        var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/csv-files/" + flows_for_spreadsheet[N_file].name_of_file + ".csv");
 
         //files_output_paths.push(output_path)
 

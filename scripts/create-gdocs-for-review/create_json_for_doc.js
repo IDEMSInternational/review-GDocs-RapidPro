@@ -1,11 +1,11 @@
 var fs = require('fs');
 var path = require("path");
 
-var input_path = path.join(__dirname, "./test/plh-international-flavour.json");
+var input_path = path.join(__dirname, "../../files/input-flows/plh_international_flavour.json");
 var json_string = fs.readFileSync(input_path).toString();
 var obj = JSON.parse(json_string);
 
-var input_path_file_names = path.join(__dirname, "./test/flows_by_template.json");
+var input_path_file_names = path.join(__dirname, "../../files/input-flows/flows_by_template.json");
 var json_string_file_names = fs.readFileSync(input_path_file_names).toString();
 var flows_by_template = JSON.parse(json_string_file_names);
 
@@ -67,7 +67,7 @@ for (var fl = 0; fl < timed_intros.length; fl++) {
 
     // write output
     doc_cont = JSON.stringify(doc_cont, null, 2);
-    var output_path = path.join(__dirname, "./test/jsons/" + curr_flow_tip.name + ".json");
+    var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/json-files/" + curr_flow_tip.name + ".json");
     fs.writeFile(output_path, doc_cont, function (err, result) {
         if (err) console.log('error', err);
     });
@@ -112,7 +112,7 @@ for (var fl = 0; fl < flows_by_template.length; fl++) {
 
     // write output
     doc_cont = JSON.stringify(doc_cont, null, 2);
-    var output_path = path.join(__dirname, "./test/jsons/" + curr_flow.name + ".json");
+    var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/json-files/" + curr_flow.name + ".json");
     fs.writeFile(output_path, doc_cont, function (err, result) {
         if (err) console.log('error', err);
     });
