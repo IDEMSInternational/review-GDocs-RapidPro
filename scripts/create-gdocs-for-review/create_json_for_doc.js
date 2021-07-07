@@ -1,14 +1,16 @@
 var fs = require('fs');
 var path = require("path");
 
+
 var input_path = path.join(__dirname, "../../files/input-flows/plh_international_flavour.json");
 var json_string = fs.readFileSync(input_path).toString();
 var obj = JSON.parse(json_string);
 
-var input_path_file_names = path.join(__dirname, "../../files/input-flows/flows_by_template.json");
+var input_path_file_names = path.join(__dirname, "../../files/input-flows/flows_by_template_and_type.json");
 var json_string_file_names = fs.readFileSync(input_path_file_names).toString();
 var flows_by_template = JSON.parse(json_string_file_names);
 
+var country = "test"
 
 /// flows with timed introduction
 
@@ -67,7 +69,7 @@ for (var fl = 0; fl < timed_intros.length; fl++) {
 
     // write output
     doc_cont = JSON.stringify(doc_cont, null, 2);
-    var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/json-files/" + curr_flow_tip.name + ".json");
+    var output_path = path.join(__dirname, "../../files/review-by-country/" + country + "/json-files/" + curr_flow_tip.name + ".json");
     fs.writeFile(output_path, doc_cont, function (err, result) {
         if (err) console.log('error', err);
     });
@@ -95,7 +97,10 @@ for (var fl = 0; fl < flows_by_template.length; fl++) {
 
     var n_mess_block = 0;
 
-    create_template(type_of_template, curr_node)
+    var exists_template = create_template(type_of_template, curr_node);
+    if (exists_template == "no") {
+        continue
+    }
 
     flow_info = {};
     flow_info.Id = curr_flow.uuid;
@@ -108,11 +113,12 @@ for (var fl = 0; fl < flows_by_template.length; fl++) {
     curr_flow_doc["Technical information"] = flow_info;
     // add flow to list of flows for doc
 
+
     doc_cont[curr_flow.name] = curr_flow_doc;
 
     // write output
     doc_cont = JSON.stringify(doc_cont, null, 2);
-    var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/json-files/" + curr_flow.name + ".json");
+    var output_path = path.join(__dirname, "../../files/review-by-country/" + country + "/json-files/" + curr_flow.name + ".json");
     fs.writeFile(output_path, doc_cont, function (err, result) {
         if (err) console.log('error', err);
     });
@@ -136,48 +142,50 @@ for (var fl = 0; fl < flows_by_template.length; fl++) {
 // Templates
 ///////////////////////////////////////////////////////////////
 function create_template(type_of_template, curr_node) {
-    if (type_of_template == 1) {
+    if (type_of_template == "1") {
         template_1(curr_node)
     }
-    else if (type_of_template == 2) {
+    else if (type_of_template == "2") {
         template_2(curr_node)
     }
-    else if (type_of_template == 3) {
+    else if (type_of_template == "3") {
         template_3(curr_node)
     }
-    else if (type_of_template == 4) {
+    else if (type_of_template == "4") {
         template_4(curr_node)
     }
-    else if (type_of_template == 5) {
+    else if (type_of_template == "5") {
         template_5(curr_node)
     }
-    else if (type_of_template == 6) {
+    else if (type_of_template == "6") {
         template_6(curr_node)
     }
-    else if (type_of_template == 7) {
+    else if (type_of_template == "7") {
         template_7(curr_node)
     }
-    else if (type_of_template == 8) {
+    else if (type_of_template == "8") {
         template_8(curr_node)
     }
-    else if (type_of_template == 9) {
+    else if (type_of_template == "9") {
         template_9(curr_node)
-    } else if (type_of_template == 10) {
+    } else if (type_of_template == "10") {
         template_10(curr_node)
-    } else if (type_of_template == 11) {
+    } else if (type_of_template == "11") {
         template_11(curr_node)
-    } else if (type_of_template == 12) {
+    } else if (type_of_template == "12") {
         template_12(curr_node)
-    } else if (type_of_template == 13) {
+    } else if (type_of_template == "13") {
         template_13(curr_node)
-    } else if (type_of_template == 14) {
+    } else if (type_of_template == "14") {
         template_14(curr_node)
+    } else if (type_of_template == "15") {
+        template_15(curr_node)
+    } else if (type_of_template == "c1") {
+        template_c1(curr_node)
     }
     else {
-        error("template not recognised")
+        return "no"
     }
-
-
 }
 
 ///////////////////////////////////////////////////////
@@ -411,6 +419,31 @@ function template_14(curr_node) {
 
 }
 
+////////////////////////////////////////////////////////
+// Template 15 - theme split & list
+
+function template_15(curr_node) {
+    var block_output = create_default_intro_block(curr_node);
+    curr_node = block_output;
+
+    block_output = create_list_of_tips_block(curr_node);
+    curr_node = block_output;
+
+    block_output = create_message_block(curr_node);
+
+}
+
+
+///////////////////////////////////////////////////////
+// Template c1 (check-ins)
+
+function template_c1(curr_node) {
+    create_checkin_positive_block(curr_node);
+
+    create_checkin_challenge_block(curr_node);
+
+}
+
 /////////////////////////////////////////////////////////
 
 /////////////////////////////////// functions for generating content blocks ///////////////////////////////////////////////////////////////
@@ -438,7 +471,13 @@ function create_message_block(curr_node) {
                 console.log("end of flow")
                 next_node = null;
                 go_on = false;
-                curr_block_messages.push(message[0].text);
+                let message_text = message[0].text;
+                if (message[0].attachments.length > 0) {
+                    message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                        .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                    console.log(message_text)
+                }
+                curr_block_messages.push(message_text);
             } else {
                 if (next_node[0].hasOwnProperty('router')) {
                     go_on = false;
@@ -447,6 +486,10 @@ function create_message_block(curr_node) {
                         var ends_with_wfr = true;
 
                         var interaction_message = message[0].text;
+                        if (message[0].attachments.length > 0) {
+                            interaction_message = interaction_message + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                        }
 
                         var wfr_node = next_node[0];
 
@@ -554,7 +597,16 @@ function loop_message_nodes(curr_node, stop_node_id) {
                 console.log("end of flow")
                 next_node = null;
                 go_on = false;
-                messages_to_send.push(message[0].text);
+                message.forEach(ac => {
+                    let message_text = ac.text;
+                    if (ac.attachments.length > 0) {
+                        message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                            .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                        console.log(message_text)
+                    }
+                    messages_to_send.push(message_text);
+                })
+
             } else {
                 if (next_node[0].hasOwnProperty('router')) {
                     go_on = false;
@@ -565,19 +617,36 @@ function loop_message_nodes(curr_node, stop_node_id) {
 
 
                     } else {
-
-                        messages_to_send.push(message[0].text);
+                        let message_text = message[0].text;
+                        if (message[0].attachments.length > 0) {
+                            message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                            console.log(message_text)
+                        }
+                        messages_to_send.push(message_text);
                         next_node = next_node[0];
                     }
                 } else {
                     if (next_node[0].uuid == stop_node_id) {
                         go_on = false;
-                        messages_to_send.push(message[0].text);
+                        let message_text = message[0].text;
+                        if (message[0].attachments.length > 0) {
+                            message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                            console.log(message_text)
+                        }
+                        messages_to_send.push(message_text);
                         next_node = next_node[0];
 
                     } else {
                         go_on = true;
-                        messages_to_send.push(message[0].text);
+                        let message_text = message[0].text;
+                        if (message[0].attachments.length > 0) {
+                            message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                            console.log(message_text)
+                        }
+                        messages_to_send.push(message_text);
                         curr_node = next_node[0];
                     }
 
@@ -959,7 +1028,7 @@ function create_list_of_tips_block(toolkit_node) {
         var tip_node_id = wfr_node.exits.filter(function (ex) { return (ex.uuid == tip_categ.exit_uuid) })[0].destination_uuid;
         var tip_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == tip_node_id) })[0];
 
-     
+
         curr_opt = {};
         if (tip_node.hasOwnProperty('router') && tip_node.router.operand == "@fields.gender") {
             curr_node = tip_node;
@@ -980,7 +1049,7 @@ function create_list_of_tips_block(toolkit_node) {
             var default_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == default_node_id) })[0];
             gender_block["Default message"] = default_node.actions[0].text;
 
-            
+
             next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == default_node.exits[0].destination_uuid) });
             curr_opt["Specific content for fathers and mothers"] = gender_block;
 
@@ -1003,10 +1072,10 @@ function create_list_of_tips_block(toolkit_node) {
 
         }
 
-        
-            
-           
-        
+
+
+
+
 
 
         var curr_opt_name = "";
@@ -1468,4 +1537,161 @@ function create_gender_split_block(curr_node) {
 
     flow_content["Specific content for fathers and mothers"] = curr_block;
     return next_node
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+function create_checkin_positive_block(question_node) {
+    var r_exp_yes = new RegExp(`\\byes\\b`, "i");
+    var r_exp_great = new RegExp(`\\bgreat\\b`, "i");
+    var curr_block = {};
+
+
+    let checkin_msg = question_node.actions[0].text + " (Yes/No)";
+    curr_block["Check-in message"] = checkin_msg;
+
+    let wfr_node = curr_flow.nodes.filter(nd => nd.uuid == question_node.exits[0].destination_uuid)[0];
+    var positive_categ_id = wfr_node.router.cases.filter(function (ca) { return (r_exp_yes.test(ca.arguments[0])) })[0].category_uuid;
+    var positive_categ = wfr_node.router.categories.filter(function (cat) { return (cat.uuid == positive_categ_id) })[0];
+    var positive_node_id = wfr_node.exits.filter(function (ex) { return (ex.uuid == positive_categ.exit_uuid) })[0].destination_uuid;
+
+    var positive_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == positive_node_id) })[0];
+    if (positive_node.actions.length == 1) {
+        if (positive_node.actions[0].type == "send_msg") {
+            let how_msg = positive_node.actions[0].text + " (Great/Neutral/Bad)"
+            curr_block["Positive follow on question"] = how_msg;
+
+
+        } else if (positive_node.actions[0].type == "set_contact_field") {
+            positive_node_id = positive_node.exits[0].destination_uuid;
+            positive_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == positive_node_id) })[0];
+            let how_msg = positive_node.actions[0].text + " (Great/Neutral/Bad)"
+            curr_block["Positive follow on question"] = how_msg;
+        }
+    } else if (positive_node.actions.length == 2) {
+        let send_msg_action = positive_node.actions.filter(ac => ac.type == "send_msg")[0];
+        let how_msg = send_msg_action.text + " (Great/Neutral/Bad)"
+        curr_block["Positive follow on question"] = how_msg;
+    } else {
+        console.error("0 or more than 2 actions")
+    }
+
+    let next_node_id = positive_node.exits[0].destination_uuid;
+    let next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == next_node_id) })[0];
+    while (!next_node.hasOwnProperty("router")) {
+        next_node_id = next_node.exits[0].destination_uuid;
+        next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == next_node_id) })[0];
+    }
+
+    let great_categ_id = next_node.router.cases.filter(function (ca) { return (r_exp_great.test(ca.arguments[0])) })[0].category_uuid;
+    let great_categ = next_node.router.categories.filter(function (cat) { return (cat.uuid == great_categ_id) })[0];
+    let great_node_id = next_node.exits.filter(function (ex) { return (ex.uuid == great_categ.exit_uuid) })[0].destination_uuid;
+    let great_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == great_node_id) })[0];
+
+    curr_block["Great response message"] = great_node.actions[0].text;
+
+
+    flow_content["Positive pathway"] = curr_block;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+function create_checkin_challenge_block(question_node) {
+    var r_exp_no = new RegExp(`\\bno\\b`, "i");
+    var curr_block = {};
+    var review_block = {};
+
+    let wfr_node = curr_flow.nodes.filter(nd => nd.uuid == question_node.exits[0].destination_uuid)[0];
+    var no_categ_id = wfr_node.router.cases.filter(function (ca) { return (r_exp_no.test(ca.arguments[0])) })[0].category_uuid;
+    var no_categ = wfr_node.router.categories.filter(function (cat) { return (cat.uuid == no_categ_id) })[0];
+    var no_node_id = wfr_node.exits.filter(function (ex) { return (ex.uuid == no_categ.exit_uuid) })[0].destination_uuid;
+
+    var no_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == no_node_id) })[0];
+    if (no_node.actions.length == 1) {
+        if (no_node.actions[0].type == "send_msg") {
+            let no_msg = no_node.actions[0].text
+            curr_block["Neutral/Bad or negative response message"] = no_msg;
+            let last_int_node_id = no_node.exits[0].destination_uuid;
+            let last_int_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == last_int_node_id) })[0];
+            let list_node_id = last_int_node.exits[0].destination_uuid;
+            let list_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == list_node_id) })[0];
+
+        } else if (no_node.actions[0].type == "set_contact_field") {
+            next_node_id = no_node.exits[0].destination_uuid;
+            next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == next_node_id) })[0];
+            if (next_node.actions[0].quick_replies.length == 0) {
+                let no_msg = next_node.actions[0].text
+                curr_block["Neutral/Bad or negative response message"] = no_msg;
+                let list_node_id = next_node.exits[0].destination_uuid;
+                var list_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == list_node_id) })[0];
+            } else {
+                var list_node = next_node;
+            }
+
+        }
+    } else if (no_node.actions.length == 2) {
+        let send_msg_action = no_node.actions.filter(ac => ac.type == "send_msg")[0];
+        let no_msg = send_msg_action.text
+        curr_block["Response message"] = no_msg;
+        let list_node_id = no_node.exits[0].destination_uuid;
+        var list_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == list_node_id) })[0];
+    } else {
+        console.error("0 or more than 2 actions")
+    }
+
+    let wfr_chall_node = curr_flow.nodes.filter(nd => nd.uuid == list_node.exits[0].destination_uuid)[0];
+    let list_of_challenge_obj = {};
+    list_of_challenge_obj["Message"] = list_node.actions[0].text;
+
+
+    for (let n_chall = 0; n_chall < list_node.actions[0].quick_replies.length; n_chall++) {
+
+        let chall = list_node.actions[0].quick_replies[n_chall];
+
+        let opt_name = "Option " + (n_chall + 1) + ": " + chall;
+        let curr_chall = {};
+
+        let r_exp_chall = new RegExp(`\\b${chall}\\b`, "i");
+        let curr_chall_messages = [];
+        let chall_categ_id = wfr_chall_node.router.cases.filter(function (ca) { return (r_exp_chall.test(ca.arguments[0])) })[0].category_uuid;
+        let chall_categ = wfr_chall_node.router.categories.filter(function (cat) { return (cat.uuid == chall_categ_id) })[0];
+        let chall_node_id = wfr_chall_node.exits.filter(function (ex) { return (ex.uuid == chall_categ.exit_uuid) })[0].destination_uuid;
+        let chall_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == chall_node_id) })[0];
+
+        curr_chall_messages.push(chall_node.actions[0].text);
+        var next_node_chall = curr_flow.nodes.filter(function (nd) { return (nd.uuid == chall_node.exits[0].destination_uuid) })[0];
+
+        while (!next_node_chall.actions[0].text.startsWith("Would you like to")) {
+            curr_chall_messages.push(next_node_chall.actions[0].text);
+            next_node_chall = curr_flow.nodes.filter(function (nd) { return (nd.uuid == next_node_chall.exits[0].destination_uuid) })[0];
+        }
+        for (var m = 0; m < curr_chall_messages.length; m++) {
+            if (curr_chall_messages.length == 1) {
+                curr_chall["Message"] = curr_chall_messages[0];
+            } else {
+                curr_chall["Message " + (m + 1)] = curr_chall_messages[m];
+            }
+        }
+
+        list_of_challenge_obj[opt_name] = curr_chall;
+
+
+    }
+
+    review_block["Message"] = next_node_chall.actions[0].text;
+
+    let wfr_node_review = curr_flow.nodes.filter(nd => nd.uuid == next_node_chall.exits[0].destination_uuid)[0];
+    var no_categ_id = wfr_node_review.router.cases.filter(function (ca) { return (r_exp_no.test(ca.arguments[0])) })[0].category_uuid;
+    var no_categ = wfr_node_review.router.categories.filter(function (cat) { return (cat.uuid == no_categ_id) })[0];
+    var no_node_id = wfr_node_review.exits.filter(function (ex) { return (ex.uuid == no_categ.exit_uuid) })[0].destination_uuid;
+
+    var no_node_review = curr_flow.nodes.filter(function (nd) { return (nd.uuid == no_node_id) })[0];
+
+    review_block["Message for negative answer"] = no_node_review.actions[0].text;
+
+
+    curr_block["List of challenges"] = list_of_challenge_obj;
+
+    flow_content["Challenge pathway (Neutral/Bad or No)"] = curr_block;
+    flow_content["Offer for review"] = review_block;
 }
