@@ -2,6 +2,8 @@ var fs = require('fs');
 var path = require("path");
 
 
+let input_args = process.argv.slice(2);
+
 var input_path = path.join(__dirname, "../../files/input-flows/plh_international_flavour.json");
 var json_string = fs.readFileSync(input_path).toString();
 var obj = JSON.parse(json_string);
@@ -10,7 +12,8 @@ var input_path_file_names = path.join(__dirname, "../../files/input-flows/flows_
 var json_string_file_names = fs.readFileSync(input_path_file_names).toString();
 var flows_by_template = JSON.parse(json_string_file_names);
 
-var country = "test"
+var country = input_args[0];
+
 
 /// flows with timed introduction
 
@@ -471,13 +474,19 @@ function create_message_block(curr_node) {
                 console.log("end of flow")
                 next_node = null;
                 go_on = false;
-                let message_text = message[0].text;
-                if (message[0].attachments.length > 0) {
-                    message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
-                        .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
-                    console.log(message_text)
-                }
-                curr_block_messages.push(message_text);
+
+                message.forEach(ac => {
+                    let message_text = ac.text;
+                    if (ac.attachments.length > 0) {
+                        message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                            .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                        console.log(message_text)
+                    }
+                    curr_block_messages.push(message_text);
+                });
+
+                
+                
             } else {
                 if (next_node[0].hasOwnProperty('router')) {
                     go_on = false;
@@ -522,13 +531,32 @@ function create_message_block(curr_node) {
 
 
                     } else {
-
-                        curr_block_messages.push(message[0].text);
+                        message.forEach(ac => {
+                            let message_text = ac.text;
+                            if (ac.attachments.length > 0) {
+                                message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                    .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                                console.log(message_text)
+                            }
+                            curr_block_messages.push(message_text);
+                        });
+        
+                
                         next_node = next_node[0];
                     }
                 } else {
                     go_on = true;
-                    curr_block_messages.push(message[0].text);
+                    message.forEach(ac => {
+                        let message_text = ac.text;
+                        if (ac.attachments.length > 0) {
+                            message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                            console.log(message_text)
+                        }
+                        curr_block_messages.push(message_text);
+                    });
+    
+                   
                     curr_node = next_node[0];
 
 
@@ -617,36 +645,45 @@ function loop_message_nodes(curr_node, stop_node_id) {
 
 
                     } else {
-                        let message_text = message[0].text;
-                        if (message[0].attachments.length > 0) {
-                            message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
-                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
-                            console.log(message_text)
-                        }
-                        messages_to_send.push(message_text);
+                        message.forEach(ac => {
+                            let message_text = ac.text;
+                            if (ac.attachments.length > 0) {
+                                message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                    .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                                console.log(message_text)
+                            }
+                            messages_to_send.push(message_text);
+                        })
+                        
                         next_node = next_node[0];
                     }
                 } else {
                     if (next_node[0].uuid == stop_node_id) {
                         go_on = false;
-                        let message_text = message[0].text;
-                        if (message[0].attachments.length > 0) {
-                            message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
-                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
-                            console.log(message_text)
-                        }
-                        messages_to_send.push(message_text);
+                        message.forEach(ac => {
+                            let message_text = ac.text;
+                            if (ac.attachments.length > 0) {
+                                message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                    .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                                console.log(message_text)
+                            }
+                            messages_to_send.push(message_text);
+                        })
+                        
                         next_node = next_node[0];
 
                     } else {
                         go_on = true;
-                        let message_text = message[0].text;
-                        if (message[0].attachments.length > 0) {
-                            message_text = message_text + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
-                                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
-                            console.log(message_text)
-                        }
-                        messages_to_send.push(message_text);
+                        message.forEach(ac => {
+                            let message_text = ac.text;
+                            if (ac.attachments.length > 0) {
+                                message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                                    .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                                console.log(message_text)
+                            }
+                            messages_to_send.push(message_text);
+                        })
+                       
                         curr_node = next_node[0];
                     }
 
@@ -887,14 +924,28 @@ function create_default_intro_block(skill_node) {
                 console.log("end of flow")
                 next_node = null;
                 go_on = false;
-                curr_block_messages.push(message[0].text);
+                message.forEach(ac => {
+                    let message_text = ac.text;
+                    if (ac.attachments.length > 0) {
+                        message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                            .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                        console.log(message_text)
+                    }
+                    curr_block_messages.push(message_text);
+                })
+
+                
             } else {
                 if (next_node[0].hasOwnProperty('router')) {
 
                     go_on = false;
                     if (next_node[0].router.operand == "@input.text") {
-
-                        var interaction_message = message[0].text;
+                        
+                        var interaction_message = message[0].text 
+                        if (message[0].attachments.length >0){
+                            interaction_message = interaction_message + "\n " + message[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                        .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/")
+                    };
                         var wfr_node = next_node[0];
                         var yes_categ_id = wfr_node.router.cases.filter(function (ca) { return (r_exp_yes.test(ca.arguments[0])) })[0].category_uuid;
                         var yes_categ = wfr_node.router.categories.filter(function (cat) { return (cat.uuid == yes_categ_id) })[0];
@@ -1054,11 +1105,22 @@ function create_list_of_tips_block(toolkit_node) {
             curr_opt["Specific content for fathers and mothers"] = gender_block;
 
         } else {
-            curr_opt_messages.push(tip_node.actions[0].text);
+            let tip_text = tip_node.actions[0].text;
+            if (tip_node.actions[0].attachments.length >0){
+                tip_text = tip_text + "\n " + tip_node.actions[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+            .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/")
+        };
+            curr_opt_messages.push(tip_text);
             var next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == tip_node.exits[0].destination_uuid) })[0];
 
             while (!next_node.actions[0].text.startsWith("Please select another number")) {
-                curr_opt_messages.push(next_node.actions[0].text);
+                let tip_text = next_node.actions[0].text;
+                if (next_node.actions[0].attachments.length >0){
+                    tip_text = tip_text + "\n " + next_node.actions[0].attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/")
+            };
+                curr_opt_messages.push(tip_text);
+    
                 next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == next_node.exits[0].destination_uuid) })[0];
             }
             for (var m = 0; m < curr_opt_messages.length; m++) {
@@ -1119,7 +1181,16 @@ function create_intro_for_timed_block(skill_node) {
         var message = curr_node.actions.filter(function (ac) { return (ac.type == "send_msg") });
 
         if (message.length > 0) {
-            curr_block_messages.push(message[0].text);
+            message.forEach(ac => {
+                let message_text = ac.text;
+                if (ac.attachments.length > 0) {
+                    message_text = message_text + "\n " + ac.attachments[0].slice(6, -2).replace("@(fields.image_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/")
+                        .replace("@(fields.comic_path & \"", "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/");
+                    console.log(message_text)
+                }
+                curr_block_messages.push(message_text);
+            })
+            
 
             var next_node = curr_flow.nodes.filter(function (nd) { return (nd.uuid == curr_node.exits[0].destination_uuid) });
             if (next_node.length == 0) {

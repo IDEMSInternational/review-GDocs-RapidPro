@@ -5,9 +5,13 @@ import json
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+import sys
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/documents']
+
+input_args = sys.argv
+country = input_args[1]
 
 def main():
     """Shows basic usage of the Docs API.
@@ -36,13 +40,13 @@ def main():
     drive_service = build('drive', 'v3', credentials=creds)
   
     
-    original_doc_id = "12R03xiPeWw90yQsGVXi1Hi4a__4AbD_D6BGFTrHAHB0"
+    original_doc_id = "1zvlWWy1Q7-thTTSs0Wf0rPAM1r1bB07UTuFZd5PAfjo"
 
     # load json file with urls of files
-    with open('../../files/review-by-country/Malaysia/files_urls_with_incorporated.json', encoding="utf8") as json_file:
+    with open('../../files/review-by-country/' +country +'/files_urls_with_incorporated.json', encoding="utf8") as json_file:
         files_urls = json.load(json_file)
 
-    with open('../../files/review-by-country/Malaysia/external_folders_urls.json', encoding="utf8") as json_file:
+    with open('../../files/review-by-country/' +country +'/external_folders_urls.json', encoding="utf8") as json_file:
         folders_urls = json.load(json_file)
     
     
@@ -50,7 +54,7 @@ def main():
 
 
 
-    copy_title = 'ParentText Content Review & Adaptation links'
+    copy_title = country + ' - ParentText Content Review & Adaptation'
     body = {
             'name': copy_title
         }

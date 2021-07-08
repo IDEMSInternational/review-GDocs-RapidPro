@@ -3,19 +3,21 @@ var fs = require('fs');
 var path = require("path");
 var converter = require("json-2-csv");
 
+let input_args = process.argv.slice(2);
+
 var input_path = path.join(__dirname, "../../files/input-flows/plh_international_flavour.json");
 var full_json_string = fs.readFileSync(input_path).toString();
 var full_obj = JSON.parse(full_json_string);
 
 var obj = extract_bits_to_be_translated(full_obj);
 
-
+var country = input_args[0];
 
 
 var flows_for_spreadsheet = [];
 
 file_1 = {};
-file_1.list_of_flows = ["PLH - Welcome - Entry", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Tips"];
+file_1.list_of_flows = ["PLH - Welcome - Entry", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Initial registration - Nickname","PLH - Welcome - Initial registration - Child nickname","PLH - Welcome - Tips","PLH - Content - Relax - Keeping calm"];
 file_1.name_of_file = "Welcome - Welcome";
 flows_for_spreadsheet.push(file_1);
 
@@ -50,12 +52,12 @@ file_7.name_of_file = "Supportive - Praise";
 flows_for_spreadsheet.push(file_7);
 
 file_8 = {};
-file_8.list_of_flows = ["PLH - Supportive - Covid", "PLH - Supportive - Development", "PLH - Supportive - Disabilities", "PLH - Supportive - Family", "PLH - Supportive - Help reminder", "PLH - Supportive - Share", "PLH - Supportive - Activities", "PLH - Supportive - Activities for babies", "PLH - Supportive - Behave reminder", "PLH - Supportive - Children reminder", "PLH - Supportive - Budget"];
+file_8.list_of_flows = ["PLH - Supportive - Covid", "PLH - Supportive - Development", "PLH - Supportive - Disabilities", "PLH - Supportive - Family", "PLH - Supportive - Help reminder", "PLH - Supportive - Share", "PLH - Supportive - Share - Link","PLH - Supportive - Activities", "PLH - Supportive - Activities for babies", "PLH - Supportive - Behave reminder", "PLH - Supportive - Children reminder", "PLH - Supportive - Budget"];
 file_8.name_of_file = "Supportive - Other";
 flows_for_spreadsheet.push(file_8);
 
 file_9 = {};
-file_9.list_of_flows = ["PLH - Supportive - Weekly congratulations"];
+file_9.list_of_flows = ["PLH - Supportive - Weekly congratulations","PLH - Supportive - Congratulations for finishing the programme"];
 file_9.name_of_file = "Supportive - Weekly congratulations";
 flows_for_spreadsheet.push(file_9);
 
@@ -66,14 +68,14 @@ flows_for_spreadsheet.push(file_10);
 
 
 file_11 = {};
-file_11.list_of_flows = ["PLH - Help - Entry", "PLH - Help - Children", , "PLH - Help - Stress","PLH - Help - COVID referrals", "PLH - Help - Access toolkit", "PLH - Internal - Print parenting toolkits"];
+file_11.list_of_flows = ["PLH - Help - Entry", "PLH - Help - Children", , "PLH - Help - Stress","PLH - Help - COVID referrals", "PLH - Help - Access toolkit", "PLH - Internal - Print parenting toolkits", "PLH - Help - Exit messages child","PLH - Help - Exit messages parent"];
 file_11.name_of_file = "Help - Help";
 flows_for_spreadsheet.push(file_11);
 
 
 
 file_12 = {};
-file_12.list_of_flows = ["PLH - Help - Settings - Entry", "PLH - Help - Settings - Change age group for tips", "PLH - Help - Settings - Language", "PLH - Help - Settings - Leave the program", "PLH - Help - Settings - Manage information", "PLH - Help - Settings - Manage information children", "PLH - Internal - Print children age group string","PLH - Help - Settings - Manage information user", "PLH - Help - Settings - Message timing", "PLH - Help - Settings - Type of media content"];
+file_12.list_of_flows = ["PLH - Help - Settings - Entry", "PLH - Help - Settings - Change age group for tips", "PLH - Help - Settings - Language", "PLH - Help - Settings - Leave the program", "PLH - Help - Settings - Leave the program - Interview","PLH - Help - Settings - Manage information", "PLH - Help - Settings - Manage information children", "PLH - Internal - Print children age group string","PLH - Help - Settings - Manage information user", "PLH - Help - Settings - Message timing", "PLH - Help - Settings - Type of media content"];
 file_12.name_of_file = "Help - Settings - Settings";
 flows_for_spreadsheet.push(file_12);
 
@@ -84,8 +86,8 @@ flows_for_spreadsheet.push(file_13);
 
 
 file_14 = {};
-file_14.list_of_flows = ["PLH - Content - Positive - CheckIn - Consequences"];
-file_14.name_of_file = "Content - Positive - CheckIn - Consequences";
+file_14.list_of_flows = ["PLH - Content - Positive - CheckIn - Redirect"];
+file_14.name_of_file = "Content - Positive - CheckIn - Redirect";
 flows_for_spreadsheet.push(file_14);
 
 file_15 = {};
@@ -94,13 +96,13 @@ file_15.name_of_file = "Content - Positive - CheckIn - Emotions";
 flows_for_spreadsheet.push(file_15);
 
 file_16 = {};
-file_16.list_of_flows = ["PLH - Content - Positive - CheckIn - Ignore"];
-file_16.name_of_file = "Content - Positive - CheckIn - Ignore";
+file_16.list_of_flows = ["PLH - Content - Positive - CheckIn - Crying"];
+file_16.name_of_file = "Content - Positive - CheckIn - Crying";
 flows_for_spreadsheet.push(file_16);
 
 file_17 = {};
-file_17.list_of_flows = ["PLH - Content - Positive - CheckIn - Instructions"];
-file_17.name_of_file = "Content - Positive - CheckIn - Instructions";
+file_17.list_of_flows = ["PLH - Content - Positive - CheckIn - Routines"];
+file_17.name_of_file = "Content - Positive - CheckIn - Routines";
 flows_for_spreadsheet.push(file_17);
 
 file_18 = {};
@@ -114,15 +116,16 @@ file_19.name_of_file = "Content - Positive - CheckIn - Rules";
 flows_for_spreadsheet.push(file_19);
 
 file_20 = {};
-file_20.list_of_flows = ["PLH - Feedback - Feedback for content","PLH - Feedback - Feedback for checkIn"];
+file_20.list_of_flows = ["PLH - Feedback - Feedback for content"];
 file_20.name_of_file = "Others - Feedback";
 flows_for_spreadsheet.push(file_20);
 
 
 file_21 = {};
-file_21.list_of_flows = ["PLH - Timed - 24h timeout alert"];
-file_21.name_of_file = "Others - 24h timeout alert";
+file_21.list_of_flows = ["PLH - Internal - Single hook message","PLH - Internal - Multiple hook messages" ];
+file_21.name_of_file = "Others - Hook";
 flows_for_spreadsheet.push(file_21);
+
 
 
 file_22 = {};
@@ -137,8 +140,8 @@ file_23.name_of_file = "Content - Relax - CheckIn - Connect";
 flows_for_spreadsheet.push(file_23);
 
 file_24 = {};
-file_24.list_of_flows = ["PLH - Content - Relax - CheckIn - List of things"];
-file_24.name_of_file = "Content - Relax - CheckIn - List of things";
+file_24.list_of_flows = ["PLH - Content - Relax - CheckIn - Anger management"];
+file_24.name_of_file = "Content - Relax - CheckIn - Anger management";
 flows_for_spreadsheet.push(file_24);
 
 file_25 = {};
@@ -150,6 +153,35 @@ file_26 = {};
 file_26.list_of_flows = ["PLH - Content - Extra - Development"];
 file_26.name_of_file = "Content - Extra - Development";
 flows_for_spreadsheet.push(file_26);
+
+
+file_27 = {};
+file_27.list_of_flows = ["PLH - Content - Positive - IPV"];
+file_27.name_of_file = "Content - Positive - IPV - IPV";
+flows_for_spreadsheet.push(file_27);
+
+file_28 = {};
+file_28.list_of_flows = ["PLH - Survey - IPV"];
+file_28.name_of_file = "Survey - IPV";
+flows_for_spreadsheet.push(file_28);
+
+file_29 = {};
+file_29.list_of_flows = ["PLH - Safeguarding - SOS","PLH - Safeguarding - WFR interaction","PLH - Safeguarding - Generic - Entry","PLH - Safeguarding - Generic - Referrals",
+"PLH - Safeguarding - Health - Entry","PLH - Safeguarding - Health - Referrals","PLH - Safeguarding - Mental health - Entry","PLH - Safeguarding - Mental health - Referrals",
+"PLH - Safeguarding - Natural disasters - Entry","PLH - Safeguarding - Natural disasters - Referrals","PLH - Safeguarding - Violence - Entry","PLH - Safeguarding - Violence - Referrals"];
+file_29.name_of_file = "Safeguarding - Safeguarding";
+flows_for_spreadsheet.push(file_29);
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*const wrapperJson2Csv = (output_path, rows) => {
@@ -219,7 +251,7 @@ async function outputFiles() {
         }
 
         //files_rows.push(rows)
-        var output_path = path.join(__dirname, "../../files/review-by-country/Malaysia/csv-files/" + flows_for_spreadsheet[N_file].name_of_file + ".csv");
+        var output_path = path.join(__dirname, "../../files/review-by-country/"+ country + "/csv-files/" + flows_for_spreadsheet[N_file].name_of_file + ".csv");
 
         //files_output_paths.push(output_path)
 
