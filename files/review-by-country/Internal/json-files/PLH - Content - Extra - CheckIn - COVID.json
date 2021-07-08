@@ -1,0 +1,50 @@
+{
+  "PLH - Content - Extra - CheckIn - COVID": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to have a conversation with your child or teen about COVID-19? (Yes/No)",
+        "Positive follow on question": "Well done for making the time to do this! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear that it went well! Discussing COVID-19 with your children, helps keep them safe!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What has been difficult for you about discussing COVID-19 with your child or teen?",
+          "Option 1: It was hard to identify resources available": {
+            "Message 1": "We completely understand. It is difficult to identify what reliable resources are. The WHO and UNICEF websites are great places to start:",
+            "Message 2": "WHO: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public\nUNICEF: https://www.unicef.org/coronavirus/covid-19",
+            "Message 3": "You could also check your local COVID-19 hotline:\n##Local Covid-19 Hotline##"
+          },
+          "Option 2: I did not have any time": {
+            "Message": "It can be hard to find time during your day, with work, chores, and everything else. Can you think of a time this week when you can spend at least 10 minutes chatting to your child or teen about COVID-19? This is really important!"
+          },
+          "Option 3: As an adult, I feel I am responsible for protecting my child, but I don't know a lot about COVID-19": {
+            "Message 1": "It is difficult to know everything about COVID-19, especially when the information is changing all the time. The most important role as a parent is to be supportive and let your child know that you are here for them. It is OKAY to not know all everything.\nSome useful resource for COVID-19 are:",
+            "Message 2": "WHO: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public\nUNICEF: https://www.unicef.org/coronavirus/covid-19",
+            "Message 3": "You could also check your local COVID-19 hotline:\n##Local Covid-19 Hotline##"
+          },
+          "Option 4: I felt uncomfortable or confused": {
+            "Message 1": "It is completely normal to feel uncomfortable, confused, or even scared. Everyone feels this way at times. The WHO and UNICEF and websites and local COVID-19 hotlines are great places to find advice on how you and your family can stay safe during COVID-19.",
+            "Message 2": "WHO: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public\nUNICEF: https://www.unicef.org/coronavirus/covid-19",
+            "Message 3": "You could also check your local COVID-19 hotline:\n##Local Covid-19 Hotline##"
+          },
+          "Option 5: My child reacted negatively": {
+            "Message": "It is completely normal for children to act out or react negatively during these unprecedented times. Give them space to share how they are feeling and let them know you are there for them. You can also try distracting them with fun activities and games."
+          },
+          "Option 6: My child asked me questions I did not the answers to": {
+            "Message 1": "It is difficult to know everything about COVID-19, especially when the information is changing all the time. The most important role as a parent is to be supportive and let your child know that you are here for them. It is OKAY to not know all everything.\nSome useful resource for COVID-19 are:",
+            "Message 2": "WHO: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public\nUNICEF: https://www.unicef.org/coronavirus/covid-19",
+            "Message 3": "You could also check your local COVID-19 hotline:\n##Local Covid-19 Hotline##"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "0b46cc73-63ec-48b2-b681-689b05d2fb0c",
+      "Template_type": "c1"
+    }
+  }
+}

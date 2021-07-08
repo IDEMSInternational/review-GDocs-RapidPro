@@ -1,0 +1,31 @@
+{
+  "PLH - Content - Positive - Introduction": {
+    "Content": {
+      "Default introduction": {
+        "Message": "Hello! Taking care of children can be challenging…even in the best of times. We sometimes do not notice when our children are behaving well. But when they are misbehaving, it can be a nightmare!",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a video on how you can help your child behave more positively!",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Keeping_It_Positive.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message on how you can help your child behave more positively!",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Keeping_It_Positive.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message 1": "There are 2 main ways that we can do to help our children behave positively more often.",
+        "Message 2": "First, we can find ways to encourage our children to behave well more often. Spending One-on-One Time with them is an important first step! ",
+        "Message 3": "Second, we can learn effective ways to manage difficult behaviours in a loving but firm way.",
+        "Message 4": "Well done! You have added another skill to your Parenting Toolkit. Over the next few days, try spending at least 5 minutes of One-on-One Time with your child. Ask them what they want to do and follow their lead!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id": "afaf6a89-ab4b-410e-935b-0c0138957a52",
+      "Template_type": "6"
+    }
+  }
+}

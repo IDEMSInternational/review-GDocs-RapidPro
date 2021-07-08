@@ -1,0 +1,14 @@
+{
+  "PLH - Supportive - Behave reminder": {
+    "Content": {
+      "Set of messages 1": {
+        "Message 1": "Hi! Every child has challenging behaviour sometimes. If you would like some tips on how to address these behaviours, type \"Help\".",
+        "Message 2": "Remember that One-on-One time, praise for being good, and consistent routines will also help reduce difficult behaviours."
+      }
+    },
+    "Technical information": {
+      "Id": "8489d8d5-3dc8-463b-9e17-60d5a930e390",
+      "Template_type": "1"
+    }
+  }
+}

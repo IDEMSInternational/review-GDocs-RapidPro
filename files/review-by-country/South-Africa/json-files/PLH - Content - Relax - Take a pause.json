@@ -1,0 +1,41 @@
+{
+  "PLH - Content - Relax - Take a pause": {
+    "Content": {
+      "Introduction for timed content": {
+        "Specific content for fathers and mothers": {
+          "Message for fathers": "Hello! This is a stressful time, especially for fathers. When we are stressed or angry, we do not make the best decisions. Taking the time to care for ourselves will help us care for our children.\n\nToday's tip is about how to keep calm and manage stress in our busy lives. ",
+          "Message for mothers": "Hello! This is a stressful time, especially for mothers. When we are stressed or angry, we do not make the best decisions. Taking the time to care for ourselves will help us care for our children.\n\nToday's tip is about how to keep calm and manage stress in our busy lives. ",
+          "Default message": "Hello! This is a stressful time, especially for parents. When we are stressed or angry, we do not make the best decisions. Taking the time to care for ourselves will help us care for our children.\n\nToday's tip is about how to keep calm and manage stress in our busy lives. "
+        },
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Interaction message if already completed": "We know that you have already received this tip (well done!). Would you like to review it again?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need an activity to help you relax or reduce stress. Chat to you later!"
+      },
+      "Default introduction": {
+        "Message": "Taking a Pause is a simple relaxation activity that you can do whenever you are feeling stressed or worried. It can also be helpful when you find your child is irritating you or has done something wrong.",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need an activity to help you relax or reduce stress. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a video about how to keep calm and manage stress in our busy lives.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Keep_Calm_And_Manage_Stress_Including_Take_A_Pause.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message to help you take a pause!",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/relaxation/eng/take_a_pause.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message 1": "Let's take a pause together! Take a deep breath and ask yourself, \"What am I thinking?\"\n\nNotice if your thoughts are positive or negative. Notice if your emotions are pleasant or unpleasant. Whatever you are feeling, it is okay. Notice how your body feels. Notice anything that hurts or is tense. \nFocus on your breath as it goes in and out. Do this for about 10 breaths. \nNow, expand your awareness to your whole body. Listen to the sounds in the room. \nTake a moment to reflect on whether you feel any different. ",
+        "Message 2": "Here is a comic to remind you of taking a pause!",
+        "Message 3": "Well done for Taking a Pause. You have added another skill to your Parenting Toolkit! \n\nYou can do this anytime you are feeling stressed. It gives you a chance to be calmer. Even a few deep breaths or connecting with the ground beneath you can make a difference. You can also Take a Pause with your Children!"
+      }
+    },
+    "Technical information": {
+      "Id intro": "c992a749-280f-459b-ae03-d18dbb90d50b",
+      "Id tip": "cb2e0d0a-0c54-4d40-8fba-09b1456779fa",
+      "Template type": "6"
+    }
+  }
+}

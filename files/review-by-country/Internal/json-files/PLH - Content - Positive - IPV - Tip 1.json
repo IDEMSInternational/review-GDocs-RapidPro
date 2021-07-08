@@ -1,0 +1,18 @@
+{
+  "PLH - Content - Positive - IPV - Tip 1": {
+    "Content": {
+      "Set of messages 1": {
+        "Message 1": "1. Treat each other as equals\n  \nFamily and friends might tell you how a partner or a parent should act. But both men and women benefit when they talk to each other and make decisions together! For example, next time you’re making a decision, try involving your partner and ask what they think.",
+        "Message 2": "Here is a comic about treating each other as equals.",
+        "Message 3": "Parent 1: “My dear, you look worried. What’s wrong?”\n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/treat_each_other_as_equals_comic_1.png",
+        "Message 4": "Parent 2: “The stove has not been working very well recently. I think the stove might be broken.”\n\nParent 1: “I noticed this too when I was cooking last week. I wanted to ask you: do you think we should buy a new one?”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/treat_each_other_as_equals_comic_2.png",
+        "Message 5": "Parent 2: “Buying a new one would be really expensive. How about we talk about it after dinner, and we can make a decision together?\n\nParent 1: “That sounds great. Thank you for cooking dinner, my dear!”\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/treat_each_other_as_equals_comic_3.png",
+        "Message 6": "Parent 1: “I am grateful we can talk about this and make this decision together. It makes a lot more sense to try to get it repaired first.”\n\nParent 2: “Me too. I feel a lot better now that we have talked about it together.” \n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/treat_each_other_as_equals_comic_4.png"
+      }
+    },
+    "Technical information": {
+      "Id": "8feee754-528f-460f-9472-5f4b62eab9f3",
+      "Template_type": "1"
+    }
+  }
+}

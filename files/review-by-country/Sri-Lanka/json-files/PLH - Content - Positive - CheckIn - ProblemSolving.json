@@ -1,0 +1,36 @@
+{
+  "PLH - Content - Positive - CheckIn - ProblemSolving": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to involve your child or teen in solving problems together? (Yes/No)",
+        "Positive follow on question": "Well done for trying! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "Keep up the great work! The more you involve your children in solving problems, the more they will learn how to do it on their own."
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What did you find challenging?",
+          "Option 1: I forgot the steps of problem solving": {
+            "Message": "Sorry to hear that you are finding this challenging. When we have a problem, we always want to get to the quickest end result and can forget about the steps. Really understanding the problem and the different solutions first helps to come up with the best solution together. You can do this!"
+          },
+          "Option 2: We could not agree on one solution to try out and got into an argument": {
+            "Message": "Sorry to hear that you are finding this challenging. Sometimes it can be difficult to agree with everyone in the family, especially if not everyone is calm yet. You could agree to try one first, then the other. Or If you get stuck, try to get together later  to agree on the solution together. You can do this!"
+          },
+          "Option 3: My child or teen got angry and did not want to talk about the problem": {
+            "Message": "Sorry to hear that you are finding this challenging. Try to notice your child or teen’s emotions. If they need some time to calm down, create a calm space later on in the day or week to discuss and solve the problem together. By taking your time, the problem can be solved well. You can do this!"
+          },
+          "Option 4: I did not have the opportunity to involve my children in problem solving": {
+            "Message": "That's okay! The important thing is that your child or teen knows that you are here for them. Try to keep an open channel of communication with them by spending quality time together and accepting their ideas. Problem solving with your children is a great way to reduce conflict in the family!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content?",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "88807f3d-0960-4013-b70c-fee47a95c2f4",
+      "Template_type": "c1"
+    }
+  }
+}

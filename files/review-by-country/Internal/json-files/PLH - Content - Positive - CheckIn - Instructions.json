@@ -1,0 +1,40 @@
+{
+  "PLH - Content - Positive - CheckIn - Instructions": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to give your child or teen instructions? (Yes/No)",
+        "Positive follow on question": "Well done for trying, how did it go? (Great/Neutral/Bad)",
+        "Great response message": "Great to hear it went well, you are a star!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "Neutral/Bad or negative response message": "Sorry to hear it was difficult for you. Well done for trying!",
+        "List of challenges": {
+          "Message": "What was your main challenge?",
+          "Option 1: My child or teen did not want to follow the instruction": {
+            "Message": "We know, our children need time to learn to follow instructions. Be patient, try again, and remember to praise them every time they follow an instruction!"
+          },
+          "Option 2: I gave a negative instead of a positive instruction": {
+            "Message": "We know, it takes some time to get used to giving positive instructions – it’s really worth trying again! Think about behaviour you would love to see your teen do more, and think of positive ways to give that instruction!"
+          },
+          "Option 3: I gave too many instructions at once": {
+            "Message": "We know, it is hard to remember to give one instruction at a time. When we do it, our child is more likely to listen – so we can praise them even more!"
+          },
+          "Option 4: My child or teen could not do what I asked them": {
+            "Message": "It is hard to remember to give realistic instructions. Try to make sure that your child or teen can physically do what you want them to do. Be specific!"
+          },
+          "Option 5: I forgot to praise my child or teen for following my instruction": {
+            "Message": "Sometimes we just expect our children to do what we want them. But when we praise them for it, they feel encouraged to listen again next time!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content?",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "2f0ac8d2-8509-4c5a-86ac-05642c0f371f",
+      "Template_type": "c1"
+    }
+  }
+}

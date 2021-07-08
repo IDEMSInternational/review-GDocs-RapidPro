@@ -1,0 +1,42 @@
+{
+  "PLH - Content - Positive - Rules": {
+    "Content": {
+      "Introduction for timed content": {
+        "Message 1": "Hello! Today's Parenting Tip is about how we can involve our children in creating consistent household rules.",
+        "Message 2": "Household rules can help keep our children safe from potential dangers both inside the house and in the community. They also help children to know what kind of behaviour is expected from them.",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Interaction message if already completed": "We know that you have already received this tip (well done!). Would you like to review it again?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" if you want to receive more tips about how to manage your child's behaviour."
+      },
+      "Default introduction": {
+        "Message": "Household rules can help keep our children safe from potential dangers both inside the house and in the community. They also help children to know what kind of behaviour is expected from them. ",
+        "Interaction message": "Would you like to learn more about this tip?\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/Positive_instructions.jpg",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's is a video on how you can involve your children in establishing household rules.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Household_Rules.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message on how you can involve your children in establishing household rules.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Household_Rules.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message 1": "Here are some simple tips on how you can make household rules with your children and teens: \n\n• Involve your child in establishing household rules.\n• Make your household rules clear and specific.\n• Make sure your child understands the reasons why you are establishing a household rule.\n• Make your household rules fair and realistic (just like instructions).\n• Praise and simple incentives can help support your child in following a household rule.\n• Add only 1 household rule at a time.",
+        "Message 2": "Children and teens are spending a lot more time online. Here is a comic on how you can create safe and healthy online habits like scheduling time online and offline.",
+        "Message 3": "Parent: “Jack, you have been spending a lot of time on your tablet. Why do you think I am concerned about that?” \n\nChild: “Um…because I am not doing my schoolwork?” \n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/Making_a_Tech_Agreement_with_Your_Teen_comic_1.png",
+        "Message 4": "Parent: “Yes, that is one reason. It is important that you make the time for your schoolwork. I also like seeing you being more active. Maybe we can make a household rule about gadget use. What do you think would be a fair limit each day?” \n\nChild: “Um…two hours a day?”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/Making_a_Tech_Agreement_with_Your_Teen_comic_2.png",
+        "Message 5": "Parent: “Hmmm…I think that might be too much time. You have so much else to do every day.” \n\nChild: “How about one hour for fun and one hour for learning?\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/Making_a_Tech_Agreement_with_Your_Teen_comic_3.png",
+        "Message 6": "Parent: “That sounds reasonable. I would also like you to do your schoolwork before using any gadgets. So from now on, the household rule is that you do your schoolwork before using gadgets and that you can have 1 hour for free time and 1 hour for educational activities. Okay?” \n\nChild: “Okay.”\n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/Making_a_Tech_Agreement_with_Your_Teen_comic_4.png",
+        "Message 7": "Well done! You have added another skill to your Parenting Toolkit. Over the next few days, try to create one household rule with your child. Remember when you involve your child in making household rules, they are more likely to follow them. It's a recipe for success!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id intro": "ddd9e52f-c29b-47b0-8a5b-ef1d09524491",
+      "Id tip": "60b7961b-13a8-4670-a966-748ec8f06766",
+      "Template type": "6"
+    }
+  }
+}

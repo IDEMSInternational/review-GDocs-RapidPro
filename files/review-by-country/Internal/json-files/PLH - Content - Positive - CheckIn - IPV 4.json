@@ -1,0 +1,36 @@
+{
+  "PLH - Content - Positive - CheckIn - IPV 4": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you tried resolving conflict in a calm way even when you have felt frustrated recently? (Yes/No)",
+        "Positive follow on question": "Good job! Resolving conflicts isn’t always easy. How was your experience? (Great/Neutral/Bad)",
+        "Great response message": "That is great!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "Sorry to hear this. What was difficult for you about resolving conflicts between you and your partner?",
+          "Option 1: I didn’t stay calm during a disagreement": {
+            "Message": "It can be really hard to stay calm when we’re having a disagreement with others. Try to think of something that you can do that might help like taking a couple deep breaths."
+          },
+          "Option 2: I got angry and yelled at my partner": {
+            "Message": "By taking a pause before responding, it can help us stay calm and respond better. When you feel yourself getting angry, try taking a pause. You can do this!"
+          },
+          "Option 3: My partner got angry and yelled at me": {
+            "Message": "Sometimes others respond to us negatively when we’re having a disagreement. In these situations, it is sometimes best to walk away for a bit until those involved have calmed down."
+          },
+          "Option 4: I forgot to take a pause when I started feeling angry": {
+            "Message": "It can be easy to forget, but don’t give up! Next time when you start feeling angry, try taking a deep breath before responding. You can also try walking away for a bit if you start feeling frustrated."
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content on this?",
+        "Message for negative answer": "That is okay! Remember you can access this content at anytime by typing \"Help\". Chat to you later!"
+      }
+    },
+    "Technical information": {
+      "Id": "95b3d752-3c99-40f3-83b6-6e6c551bc395",
+      "Template_type": "c1"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "PLH - Content - Positive - IPV - Tip 3": {
+    "Content": {
+      "Set of messages 1": {
+        "Message 1": "3. Share family responsibilities\n  \nSharing family responsibilities with your partner can make life less stressful! Can you think of ways you can share the workload? Doing tasks together can also make them more fun!",
+        "Message 2": "Here is a comic about sharing family responsibilities.",
+        "Message 3": "Child: “Wow, there are so many clothes in here!”\n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/share_family_responsibilities_comic_1.png",
+        "Message 4": "Parent 1: “You’re right, Kyle, there is quite a lot to do.”\n\nParent 1: “If we do it together it will take less time!”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/share_family_responsibilities_comic_2.png",
+        "Message 5": "Parent 1: “Doing tasks together is also fun”\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/share_family_responsibilities_comic_3.png",
+        "Message 6": "Parent 2: “Thank you, my love. Sharing the workload makes it less stressful.”\n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/share_family_responsibilities_comic_4.png"
+      }
+    },
+    "Technical information": {
+      "Id": "81058468-c9eb-4ffa-adbb-a3853e95b1ba",
+      "Template_type": "1"
+    }
+  }
+}

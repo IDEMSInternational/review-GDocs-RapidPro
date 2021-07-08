@@ -1,0 +1,8 @@
+category,subcategory,name,specification,text message,option 1,option 2,option 3,option 4,option 5,option 6,option 7,option 8,option 9,option 10,name of flow,flow id,node id
+Survey,Parenting,,,"Can we ask you a few questions to help these messages work better for you?  If you do not want to answer any questions, it is completely okay. Remember, everything you say will be completely private.",Yes,No,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,66c0f0bc-c17e-4af4-83ef-444c9bd5edaa
+Survey,Parenting,,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,8880039b-2754-4b36-ade3-01974fbefbdb
+Survey,Parenting,,,Thank you! We really appreciate your input.,,,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,b41218d5-f30d-47a2-9f0e-02e7fcc6b6f5
+Survey,Parenting,,,It is okay if this is not a good time. Chat later!,,,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,49559d92-be34-4eb6-83ef-7566ae0de893
+Survey,Parenting,,,It is okay if this is not a good time. We will try again tomorrow. Chat later!,,,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,fd63c93b-9791-4f71-bd07-4a08dc932864
+Survey,Parenting,,,Thanks so much for answering these questions! We really appreciate it.,,,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,14a2f199-d5f7-4845-89d6-383a24d19b66
+Survey,Parenting,,,It looks like you are busy right now. Please type “GoBack” to receive the most recent messages again.,,,,,,,,,,,PLH - Survey - Parenting,8a394172-e4ff-4368-8cc8-1adf8c832afe,9fda9cd8-69d1-4b27-bcf9-297f3e0ec302

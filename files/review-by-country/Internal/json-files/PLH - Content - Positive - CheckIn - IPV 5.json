@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - IPV 5": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you tried to talk to your partner about your feelings and any difficulties you are facing recently? (Yes/No)",
+        "Positive follow on question": "Good for you! Talking about challenges and our emotions can be hard. How was your experience?  (Great/Neutral/Bad)",
+        "Great response message": "That is fantastic!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "We are sorry to hear that. What was hard for you when talking about your feelings and challenges you are facing?",
+          "Option 1: I am afraid my partner will think I am weak": {
+            "Message": "Sharing how we feel and talking about the difficulties we’re facing actually makes everyone in the family stronger! By sharing emotions you can better understand and support each other."
+          },
+          "Option 2: I felt uncomfortable talking about it": {
+            "Message": "Talking about our feelings or challenges we’re facing, can help others understand and support you better. Emotions and challenges are a part of life, and learning how to handle these, can help you avoid conflict with loved ones and make life less stressful."
+          },
+          "Option 3: My partner felt uncomfortable when I talked about it": {
+            "Message": "Starting something new can be difficult. Give yourself and others time to get used to it. By setting a good example by sharing your emotions and challenges you’re facing, others will feel start to feel more comfortable sharing too."
+          },
+          "Option 4: My partner asked many questions, which made me uncomfortable": {
+            "Message": "Sharing your emotions or difficulties you are facing is about making others more aware of how you are feeling. You get to decide how much you want to share. You can also choose to share more at a later time."
+          },
+          "Option 5: I felt too stressed or angry to talk about it": {
+            "Message": "It’s okay if you don’t want to share at that time. You can choose to share how you’re feeling at a later time once you feel calmer."
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content on this?",
+        "Message for negative answer": "That is okay! Remember you can access this content at anytime by typing \"Help\". Chat to you later!"
+      }
+    },
+    "Technical information": {
+      "Id": "b7a0b0d5-0e3c-4ab4-b703-8248efcad4ad",
+      "Template_type": "c1"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "PLH - Content - Positive - CheckIn - Online children": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to discuss online safety with your child or teen? (Yes/No)",
+        "Positive follow on question": "Well done for taking the time to do this. How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear it went well! Our children spend a lot of time online, so it is very beneficial for them to be taught responsible online habits. This is important so that they can stay safe and continue enjoying the benefits of the digital world."
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What did you find difficult about discussing online safety with your child?",
+          "Option 1: My child is still using digital gagdets": {
+            "Message": "Sorry to hear that you are finding this challenging. Creating new and healthy habits like device-free space and time in your house (eating, playing, schoolwork, and sleeping) is a learning process. Try slowly introducing  device-free times, and build up from there. Change takes time, you can do this!"
+          },
+          "Option 2: I am finding it difficult to get my child to stop using gadgets": {
+            "Message": "Sorry to hear that you are finding this challenging. Creating new and healthy habits like device-free time is a learning process. Try replacing a time when your child usually was on their phone with another fun activity. This allows children to see that other activities can bring them enjoyment too. Change takes time, you can do this!"
+          },
+          "Option 3: I forgot how to set up set up technical fixes": {
+            "Message": "Sorry to hear that you are finding this challenging. Here is a review on quick technical fixes: \n• Turn on SafeSearch on your browser to filter adult content.\nhttps://www.internetmatters.org/blog/parental-controls/entertainment-search-engines/\n• Set up parental controls.\nhttps://www.internetmatters.org/parental-controls/\n• Set up strict privacy settings on online apps and games.\n https://www.internetmatters.org/blog/parental-controls/social-media/\n• Cover webcams when not in use."
+          },
+          "Option 4: I do not feel comfortable with what my child is looking at online": {
+            "Message": "Sorry to hear that you are finding this challenging. If you think your child is accessing information online which is not age appropriate discuss with them why you have concerns, and why you are not comfortable. Try having your child involved in the conversation and get them to share their views. Having an open conversation is important, and children are more likely to stick to decisions if they feel that they are fair and their opinions have been heard. "
+          },
+          "Option 5: I do not know how to talk to my child about what's safe and not safe online": {
+            "Message": "Sorry to hear that you are finding this challenging. These conversations can be difficult to initiate, but they are important to have as they can protect your child. The more conversations you have with your child about the digital world, the easier they will become."
+          },
+          "Option 6: I don’t know much about technology, so I don’t know how to talk about it with my child": {
+            "Message": "That is completely normal to experience. Try asking your child or teen to explain the gadgets they use; you could do this during one-on-one time. This is a great opportunity to show interest in your child's or teen’s life and to discuss potential risks together. If you are not sure which rules to set, you can always agree, with your child or teen, to try a new rule for two weeks and then discuss how things are going and change the rule if needed!"
+          },
+          "Option 7: I did not have the time to have this discussion with my child or teen": {
+            "Message": "It can be hard to find time during your day, with work, chores, and everything else. Can you think of even 30 minutes this week to do this activity? It will make a big difference in keeping your child safe and building a trusting relationship between you. You can do it!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content?",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "06e38136-5cfa-4d43-80e5-ad5a36f420b1",
+      "Template_type": "c1"
+    }
+  }
+}

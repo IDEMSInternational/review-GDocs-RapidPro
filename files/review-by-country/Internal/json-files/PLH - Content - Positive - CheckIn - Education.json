@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - Education": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you been able to support your child's learning and education recently? (Yes/No)",
+        "Positive follow on question": "Well done! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear that it went well! Research has found that parental support helps children's academic achievements!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! Remember you are a parent, not a teacher. What did you find difficult about remote learning?",
+          "Option 1: I don't know what to do with my child": {
+            "Message": "It is completely normal to experience this, it can be really hard for the whole family to adjust to remote learning. Try making a weekly plan with your child. Include educational, relaxation and fun activities activities so that it balanced and enjoyable for your child. You can do this!"
+          },
+          "Option 2: My child does not want to learn": {
+            "Message": "Sorry to hear that you are finding this challenging. Try thinking of playful and interesting ways to teach your child their school curriculum. Children are interested in learning if they are having fun. If you need any tips on fun ideas type \"Help\"."
+          },
+          "Option 3: I am feeling overwhelmed": {
+            "Message": "It is completely normal to feel overwhelmed. Try staying in touch with your child's teacher or school to receive some guidance. Asking for help is a sign of strength. You can do this!"
+          },
+          "Option 4: I do not know where to find resources to support my child's learning": {
+            "Message": "That is okay! Here are some resources to help you with supporting your child's learning:\n\nhttps://www.familylives.org.uk/advice/primary/learning-school/supporting-your-child-at-school/\nhttps://www.unicef.org/coronavirus/supporting-your-childs-mental-health-during-covid-19-school-return"
+          },
+          "Option 5: I did not have the time to involve myself in my child's learning or education": {
+            "Message": "It can be hard to find time during your day, with work, chores, and everything else. Can you think of a time each day that you can make 5 minutes or a bit more to help your child with their learning? Perhaps try starting them off on an activity and then checking in with them every few minutes. You can do it!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "3d046a4a-1139-42db-9fe0-3112a7fb4071",
+      "Template_type": "c1"
+    }
+  }
+}

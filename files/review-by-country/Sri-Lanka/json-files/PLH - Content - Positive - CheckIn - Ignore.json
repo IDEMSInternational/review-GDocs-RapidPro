@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - Ignore": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you been able to ignore your child's tantrums or other negative demanding behaviours? (Yes/No)",
+        "Positive follow on question": "Well done for trying! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear it went well! Ignoring negative attention seeking and demanding behaviours is not easy. Good for you for giving it a try and being consistent!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "Sorry it did not go well. Ignoring our children's whining or tantrums is really hard. Please be patient with yourself. What was difficult about using ignore?",
+          "Option 1: It was hard to stay calm while ignoring my child's tantrum": {
+            "Message": "We know, it can be really difficult to stay calm when our children are whining or having a tantrum. Try to think of something that you can do to help like taking a pause. You can do this!"
+          },
+          "Option 2: I struggled to be consistent and gave into their demands": {
+            "Message": "We know, it is hard to be consistent! If you ignore a behaviour only some of the time, your child will think it might help them get their way. The more consistent you are, the less they will do it."
+          },
+          "Option 3: I am concerned about my child or someone else getting hurt": {
+            "Message": "Sometimes, our children can have very violent tantrums when they do not get their way, especially if they are used to it. Try to move your child to a place where they will not hurt themselves or others. You may need to firmly hold your child while ignoring their behaviour - but only do this if you can remain calm and make sure you are not hurting them! Eventually, your child will calm down."
+          },
+          "Option 4: I am having to ignore my child's behaviour all the time": {
+            "Message": "If you are finding that you are ignoring your child's behaviour a lot, then your child is probably not getting enough positive attention at other times. Try to spend more One-on-One Time with your child!"
+          },
+          "Option 5: My child did not behave in a negative attention seeking or demanding way": {
+            "Message": "Great to hear that you have not needed to use ignore with tantrums or other negative attention seeking and demanding behaviour. Keep investing in quality time and praising your child's positive behaviour. Redirect works great for avoiding these behaviours, too!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "ef95c56a-8dad-4476-8caf-44743a5f9d81",
+      "Template_type": "c1"
+    }
+  }
+}

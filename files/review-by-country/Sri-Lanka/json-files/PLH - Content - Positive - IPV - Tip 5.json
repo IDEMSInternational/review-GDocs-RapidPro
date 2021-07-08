@@ -1,0 +1,19 @@
+{
+  "PLH - Content - Positive - IPV - Tip 5": {
+    "Content": {
+      "Set of messages 1": {
+        "Message 1": "5. Listen and talk to each other\n  \nListening and talking to those around us is key to a more peaceful home. Talking to your partner about issues before they become problems can help avoid arguments from building up.",
+        "Message 2": "Here is a comic about listening and talking to each other.",
+        "Message 3": "Parent 1: “Are you okay, my love? You look tired.”\n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/listen_and_talk_to_each_other_comic_1.png",
+        "Message 4": "Parent 2: “I didn’t sleep well last night and so I am feeling quite tired.”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/listen_and_talk_to_each_other_comic_2.png",
+        "Message 5": "Parent 1: “I am sorry to hear that, Amir. Is there anything I can do to help?”\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/listen_and_talk_to_each_other_comic_3.png",
+        "Message 6": "Parent 2: “I might try and get an earlier rest this evening.”\n\nParent 1: “I can take over the children’s bedtime routine after dinner tonight, so that you can get some extra rest.”\n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/listen_and_talk_to_each_other_comic_4.png",
+        "Message 7": "Parent 2: “That would be lovely. Thank you so much, my dear.”\n\n(5)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/listen_and_talk_to_each_other_comic_5.png"
+      }
+    },
+    "Technical information": {
+      "Id": "088f4eca-1c0c-4ef2-bc4d-42b0ae3cd25b",
+      "Template_type": "1"
+    }
+  }
+}

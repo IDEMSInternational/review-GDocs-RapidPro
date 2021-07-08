@@ -1,0 +1,35 @@
+{
+  "PLH - Content - Relax - Exercise": {
+    "Content": {
+      "Default introduction": {
+        "Message": "Hello! How are you feeling? If you are feeling overwhelmed or stressed, here's a fun activity that can also release some stress.",
+        "Interaction message": "Would you like to learn more about this tip?\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/dancing_family.jpg",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need an activity to help you relax or reduce stress. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a fun video of a physical activity that can help you release stress and keep healthy!",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Exercise.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message to guide you through a fun physical activity!",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Exercise.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message 1": "Stand up and stretch your arms up like you are reaching to the sky. Pretend to push away any clouds and let the sun shine down on you. Stretch to both sides. Stretch to the front and to the back.",
+        "Message 2": "Let your hand hang by your side. As you breathe in, squeeze your shoulders tightly up to your ears, scrunch your eyes and face, and hold your breath. Release your breath and then relax your shoulders and body.",
+        "Message 3": "Relax your arms and let your arms swing sideways, and turn your upper body. Your arms should gently hit your back as you twist from side to side.",
+        "Message 4": "Place one foot in front of the other and make small circles from ankles, remember to turn to both sides. Do each foot with four circles in each direction.",
+        "Message 5": "Now shake your whole body as fast as you can. Shake it up high! Shake it down low! Shake it all around!",
+        "Message 6": "Close your eyes and raise your arms slowly above your head as you breathe in. Lower your arms slowly to your side as you breathe out.",
+        "Message 7": "Take a moment to reflect on your experience.",
+        "Message 8": "Well done! You have added another skill to your Parenting Toolkit. Over the next few days, try doing some physical exercise every day. It is a great way to reduce stress and keep healthy. Even 5 minutes a day can make a difference!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id": "d1e88e1c-34f1-4b60-af2c-a99adc885d7c",
+      "Template_type": "6"
+    }
+  }
+}

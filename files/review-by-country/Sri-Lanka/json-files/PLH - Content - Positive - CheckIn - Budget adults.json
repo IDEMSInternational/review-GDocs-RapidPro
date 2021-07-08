@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - Budget adults": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to have a discussion with your family about budgets and savings? (Yes/No)",
+        "Positive follow on question": "Well done for taking the time to do this! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear that it went well! Making a budget as a family can help you have enough money to get through the month and also reduce arguments!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What did you find challenging about discussing budgeting with your family?",
+          "Option 1: I did not want to tell my family how much I earn": {
+            "Message": "It is completely normal to experience this. You don’t have to reveal the exact amount you earn; you could give an estimate. You could say, “In this household, we have this amount of money every month” rather than, “I make this amount of money”."
+          },
+          "Option 2: When budgeting, we could not agree on what should fall under needs and what should fall under wants": {
+            "Message": "It is completely normal to experience this challenge. People’s wants and needs are different sometimes. Talking about them together can help you and your family to understand each other, respect your differences, and see where you can compromise."
+          },
+          "Option 3: I did not understand what to do": {
+            "Message": "We are sorry to hear this. We know it can be difficult! Why don’t we go through the content again? Your family members can join and help you! "
+          },
+          "Option 4: My family did not want to do the budgeting with me": {
+            "Message": "It is completely normal to experience this challenge. Try making the budget alone first and then try and include family members. Try reminding them that budgeting is important and it can help the family save money."
+          },
+          "Option 5: I did not have the time to talk about budgeting with my family": {
+            "Message": "It can be hard to find time during your day, with work, chores, and everything else. Can you think of even 30 minutes this week to do this activity? You can even break each step up into shorter activities and spread it across the week. You can do it!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "c20a1a93-a885-4459-b1ae-8d5cc96c0efd",
+      "Template_type": "c1"
+    }
+  }
+}

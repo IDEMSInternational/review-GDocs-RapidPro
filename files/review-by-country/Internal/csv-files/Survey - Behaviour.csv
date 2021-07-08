@@ -1,0 +1,87 @@
+category,subcategory,name,specification,text message,option 1,option 2,option 3,option 4,option 5,option 6,option 7,option 8,option 9,option 10,name of flow,flow id,node id
+Survey,Behaviour,,,Can we also ask you a few quick questions about your children's behaviour?,Yes,No,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,4e4c0752-16b1-451f-ac2b-b86f801ea663
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,b483af27-8cd0-4748-b787-d63d062f88ca
+Survey,Behaviour,,,Are you a parent/caregiver of a child living with disabilities?,Yes,No,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,d14bb682-e1d7-4a88-90aa-cc78526ded1f
+Survey,Behaviour,,,It is okay if this is not a good time. We will try again tomorrow. Chat later!,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,7a46c2c6-61de-422c-9725-d38e52c633f9
+Survey,Behaviour,,,It is okay if this is not a good time. Chat later!,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,3d28119b-698b-42df-a871-5d89c2bf6629
+Survey,Behaviour,,,"All children misbehave sometimes. So that we can give you the right information, please tell us the name or nickname of the child who you are having the most difficulties with.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,80d21d07-a4ad-437b-9d9d-3e6eed88c67b
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,cf5c286d-e8f5-466d-9a64-33decedbc0ae
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,98c2a49a-e072-4ea9-af34-6afd10b1402f
+Survey,Behaviour,,,Is @fields.survey_behave_name a boy or girl?,Boy,Girl,Prefer not to say,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,a14d176c-ab4e-4c00-8990-6a2b729ad601
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,03b19253-b38a-4607-abc6-08d97333a6d3
+Survey,Behaviour,,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,793d51b4-c62e-4930-b62d-eb7ebfe42ded
+Survey,Behaviour,,,How old is @fields.survey_behave_name in years? Please reply with a number between 0 and 17.,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,40181e96-be23-44c0-811b-726db46fd216
+Survey,Behaviour,,,This looks too old. ,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,88b8906d-f043-4483-bd6f-a58992884ecf
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,5bc9fd80-fb64-4267-b66f-8ff50481bb4f
+Survey,Behaviour,,,How many months old is @fields.survey_behave_name? Please enter a number between 0 and 23.,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,b10726d0-5e9c-4806-8369-843f098bfe64
+Survey,Behaviour,,,What is your relationship to @fields.survey_behave_name?,Parent,Grandparent,Aunt/Uncle,Foster Parent,Other,Prefer not to say,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,fd1c4c22-d4fb-4528-8876-47926bbcb034
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,b05ccbc0-4d38-4401-84cd-c5e3212acfc1
+Survey,Behaviour,,,"All children behave badly sometimes. Here are a list of typical behaviours that can be challenging for parents:
+
+1. Refuse to obey instructions
+2. Gets angry a lot
+3. Rudeness, disrespectful behaviour
+4. Irritable, frequent mood changes
+5. Does not follow rules
+6. Stubbornness
+7. Breaking things
+8. Getting into fights
+9. Teasing or bothering others
+
+Please type the number that describes the most challenging behaviour for you to manage with @fields.survey_behave_name. You can also type ""N"" if you do not want to answer. ",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,1e84d247-78a6-4739-b2a9-c720f73c7a5c
+Survey,Behaviour,,,"All children behave badly sometimes. Here are a list of typical behaviours that can be challenging for parents:
+
+1. Crying a lot
+2. Problems sleeping
+3. Acting clingy
+4. Whining for things
+5. Bad tempered or moody
+6. Problems eating
+7. Stubborn or fussy
+8. Naughty behaviour
+9. Temper tantrums
+
+Please type the number that describes the most challenging behaviour for you to manage with @fields.survey_behave_name. You can also type ""N"" if you do not want to answer. ",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,3542a11b-fa42-4fb4-a297-be6bd75b1db6
+Survey,Behaviour,,,"All children behave badly sometimes. Here are a list of typical behaviours that can be challenging for parents:
+
+1. Refuse to obey instructions
+2. Temper tantrums
+3. Disrespectful behaviour
+4. Whining for things
+5. Hyperactivity, can't sit still
+6. Hitting others
+7. Breaking things
+8. Getting into fights
+9. Teasing or bothering others
+
+Please type the number that describes the most challenging behaviour for you to manage with @fields.survey_behave_name. You can also type ""N"" if you do not want to answer. ",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,4be2e9c3-f227-4b44-b11a-bd87c483841c
+Survey,Behaviour,,,"Sorry, I don't understand what you mean. Please type a number between 1 and 9.  You can also type ""N"" if you do not want to answer. ",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,7bc99062-52d5-458d-bade-9d8baf276a2f
+Survey,Behaviour,,,How challenging is this problem on a scale of 0 to 7 (0 = not a problem and 7 = terrible)?,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,122161a4-e0c0-4618-8f0f-786ec2efec9d
+Survey,Behaviour,,,"Sorry, I don't understand what you mean. Please type a number between 0 and 7.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,cfdc7f1e-a4b1-47f5-a21f-0167237ebc18
+Survey,Behaviour,,,We understand that this can be really difficult for you and your child. Would you like some advice on how to manage this behaviour?,Yes,No,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,13b4c68c-2fc1-4118-a106-41e95868479a
+Survey,Behaviour,,,You are doing much better than most people. Keep investing in One-on-One Time with your child!,,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,7f063aa6-3064-47d9-8512-62ef3c6f06a9
+Survey,Behaviour,,,"Thanks so much for answering these questions. We really appreciate it. 
+
+Remember that we are here to help. Type ""Help"" if you ever want more parenting tips or other assistance. Thanks again!",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,ee6e5ad0-827d-4bb7-82d8-c0c199c28ba0
+Survey,Behaviour,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behaviour,36a6e56b-04a9-4a8b-a27e-092decdadcad,8bc12d09-af7d-4126-acf2-20d14731f352
+Survey,Behaviour,Children age groups,,Are you a parent/caregiver of a baby (0 to 23 months)? ,Yes,No,,,,,,,,,PLH - Survey - Behaviour - Children age groups,ee4cb5a1-f911-4364-be3b-00cd09c979c4,f79074c8-43ed-4dc2-b7ac-977e09544ef2
+Survey,Behaviour,Children age groups,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Behaviour - Children age groups,ee4cb5a1-f911-4364-be3b-00cd09c979c4,616688b6-acdd-483c-8749-6c983bfd036c
+Survey,Behaviour,Children age groups,,Are you a parent/caregiver of a young child (2 to 9 years)?,Yes,No,,,,,,,,,PLH - Survey - Behaviour - Children age groups,ee4cb5a1-f911-4364-be3b-00cd09c979c4,cfffd532-e0a4-4650-a29c-5590cf3defbe
+Survey,Behaviour,Children age groups,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Behaviour - Children age groups,ee4cb5a1-f911-4364-be3b-00cd09c979c4,451fe9ee-a201-4083-be07-e7794932744f
+Survey,Behaviour,Children age groups,,Are you a parent/caregiver of a teenager (10 to 17 years)? ,Yes,No,,,,,,,,,PLH - Survey - Behaviour - Children age groups,ee4cb5a1-f911-4364-be3b-00cd09c979c4,7b23bd09-9e94-4670-863c-4da949c1c200
+Survey,Behaviour,Children age groups,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Behaviour - Children age groups,ee4cb5a1-f911-4364-be3b-00cd09c979c4,32de179d-168a-4ee9-bde0-a8b0569ba2cd
+Survey,Behave,Tips for difficult behaviours,,"It can be exhausting when your children have too much energy or can't focus on one thing. Sometimes, your children need opportunities to be very active and run around to help them be calm afterwards. ",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,277cf94d-a95b-47e9-b10c-15c07625d019
+Survey,Behave,Tips for difficult behaviours,,Would you like suggestions for active and calm things to do with your child?,Yes,No,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,98227229-0b12-493c-8bc6-890ac07e3f74
+Survey,Behave,Tips for difficult behaviours,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,1f37a71f-f88e-4883-8346-0089cbadd5df
+Survey,Behave,Tips for difficult behaviours,,"Remember that you’re in charge of what they eat, but not how much. Newborns have stomach the size of a grape! They need to eat often (sometimes in the middle of the night). It’s important to build trust around eating, especially as your baby starts on solid food. Let them know you are listening to their wishes in the eating department. They’ll be ravenous again soon!",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,a0010ba1-98b6-481e-8e04-5fe92f2e5a18
+Survey,Behave,Tips for difficult behaviours,,Check to see why your baby is in a bad mood. Are they tired or hungry? Or maybe they are not feeling well? Or maybe they need some more loving attention. Be a reassuring presence for your baby when they are having a difficult day.,,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,9bc4dcb4-20b0-4385-ba8e-738f6bfe9508
+Survey,Behave,Tips for difficult behaviours,,"Unfortunately, your baby will go through phases for the next 2 years of sleeping poorly. Try wearing your baby close to you, feeding them and carrying them in a sling. And hang in there, remember it’s a phase. You and your baby will get through it together!",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,cf956247-9b8a-4d9e-9c0d-82de2bdd3f9f
+Survey,Behave,Tips for difficult behaviours,,Your baby will cry as soon as a caregiver’s attention is diverted and are cranky as well as clingy. Prioritise being there for them and give them physical contact when needed.,,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,24dff437-71e9-4352-9f4c-84c18acccece
+Survey,Behave,Tips for difficult behaviours,,"Pay close attention to your baby in case they try something dangerous! Just because they are able to play on their own now, doesn’t mean you can look away for long. Redirect mischievous behaviours into practice waving, imitation games, singing and moving games and pretending to talk on the phone!",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,7abd87aa-d7e9-4882-8f1d-5448689b846f
+Survey,Behave,Tips for difficult behaviours,,Try to stay calm and support your toddler as they move through the tantrum. Your priority is to ensure that they don’t hurt themselves. Don’t add to your child’s anger by shouting and showing angry emotions. This won’t help.,,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,0689e7d6-a492-46b5-8393-50a56ea6443f
+Survey,Behave,Tips for difficult behaviours,,Babies are much more likely to want to do things if you make the activity fun and playful. Patience is also a must. Take a deep breath if you notice yourself getting frustrated by your baby.,,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,5e0c0355-5e31-4009-8585-b825359cc534
+Survey,Behave,Tips for difficult behaviours,,Would you like to learn more?,Yes,No,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,2443882c-c4dc-4a69-bc6d-325cf61e9864
+Survey,Behave,Tips for difficult behaviours,,Would you like to learn more?,Yes,No,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,fdac8e6e-6e4e-46a9-aa73-49cb8ae346e8
+Survey,Behave,Tips for difficult behaviours,,"Your baby or toddler may sometimes want something that they cannot have. If they start whining, first check to see if there is something wrong (are they actually hungry or tired)? If they continue, try to redirect their attention to something else. You should also try to ignore their behaviour while attending to them for comfort and support",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,30567d51-96fd-4888-8d78-b730b51c9569
+Survey,Behave,Tips for difficult behaviours,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,0e11f125-edb3-4ec3-9e1f-e224ea956689
+Survey,Behave,Tips for difficult behaviours,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Behave - Tips for difficult behaviours,9ef0d8d2-e496-4649-a7d5-b52aa0aeff52,6ea66088-618f-4944-93de-00659f396207

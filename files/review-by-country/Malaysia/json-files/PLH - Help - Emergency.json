@@ -1,0 +1,14 @@
+{
+  "PLH - Help - Emergency": {
+    "Content": {
+      "Set of messages 1": {
+        "Message": "Here are some useful numbers in :\n\nPolice: \nAmbulance: \nViolence at home: \nDrug: \nChildline: \nLifeline (Counselling): ",
+        "Interaction message": "Please type \"back\" if you want to go back to the previous options."
+      }
+    },
+    "Technical information": {
+      "Id": "fef35f4c-5463-42e9-941a-d6ed815c2269",
+      "Template_type": "1"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "PLH - Content - Positive - CheckIn - Crisis": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to stay calm if your teen shared something sensitive or challenging? (Yes/No)",
+        "Positive follow on question": "Well done, that is not very easy to do! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear that it went well! This shows that you and your teen have a trusting and positive relationship. You should be proud of yourself!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "We understand! What did you find difficult about discussing challenges with your teen?",
+          "Option 1: My teen told me that something serious happened to them and I did not know how to handle it": {
+            "Message": "It is completely normal to experience this challenge. Praise your teen for telling you, that is not easy to do! Remember, you can use all the skills you collected in your toolbox: Take a Pause, reassure your teen that you are here for them, discuss possible solutions, and reach out to get the support you and your teen need!"
+          },
+          "Option 2: The conversation made me very uncomfortable because I was reminded of something serious that happened to me": {
+            "Message": "When we are reminded of such situations, it is normal to feel upset or angry . It is important to find a time when you are calm, so you can think of what support you need: You may need to talk to someone."
+          },
+          "Option 3: My teen, or me, or my family did not feel comfortable": {
+            "Message": "It is completely normal to experience this challenge, this is difficult stuff to talk about. Find a calm time. You can say that we hope these things never happen, but it’s like getting insurance – it's best to think about them and be prepared."
+          },
+          "Option 4: My teen did not discuss anything sensitive or challenging with me": {
+            "Message": "That's okay! The important thing is that your teen knows that you are here for them. It sometimes takes time for a teen to feel comfortable sharing. Try to keep an open channel of communication with them by spending quality time together and accepting their ideas."
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "36a9cac1-f1fc-44de-9f9f-f01ae914ed9b",
+      "Template_type": "c1"
+    }
+  }
+}

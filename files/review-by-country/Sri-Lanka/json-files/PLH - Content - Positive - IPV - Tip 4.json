@@ -1,0 +1,19 @@
+{
+  "PLH - Content - Positive - IPV - Tip 4": {
+    "Content": {
+      "Set of messages 1": {
+        "Message 1": "4. Resolve conflict peacefully\n  \nAll adults have disagreements sometimes. But solving issues through fighting is not effective. Instead, if you start feeling angry, walk away for a bit or take a deep breath before responding in a calmer way.",
+        "Message 2": "Here is a comic about resolving conflict peacefully.",
+        "Message 3": "Parent 1: “Dinner is ready!”\n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/resolve_conflict_peacefully_comic_1.png",
+        "Message 4": "Child: “Look, it is raining so much outside!”\n\nParent 1: “I am glad you brought in the laundry earlier, my dear. Otherwise, it would have been soaked by now!”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/resolve_conflict_peacefully_comic_2.png",
+        "Message 5": "Parent 1: “I thought you said you would bring in the laundry today?”\n\nParent 1: “No, I was busy cooking dinner! You told me you would take care of it! How could you forget? Now all the laundry is wet!”\n\nParent 2: “I’m really sorry. It was a mistake!”\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/resolve_conflict_peacefully_comic_3.png",
+        "Message 6": "Parent 1(thinking): I can’t believe he forgot! But everyone can make mistakes. Take a deep breath…\n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/resolve_conflict_peacefully_comic_4.png",
+        "Message 7": "Parent 1: “I’m sorry if I sounded upset. I just got stressed because I have had a long day.”\n\nParent 2: “I am sorry that I forgot the laundry. I know you have had a long day. I will make sure to take care of it after dinner.”\n\n(5)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/resolve_conflict_peacefully_comic_5.png"
+      }
+    },
+    "Technical information": {
+      "Id": "56ab11c9-a317-41ef-89e0-4b6e192eee60",
+      "Template_type": "1"
+    }
+  }
+}

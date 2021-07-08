@@ -1,0 +1,42 @@
+{
+  "PLH - Content - Positive - CheckIn - IPV 2": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you tried getting involved in helping out at home as well as involving your partner in helping you with caregiving or housework recently? (Yes/No)",
+        "Positive follow on question": "Well done for trying! How was your experience? (Great/Neutral/Bad)",
+        "Great response message": "That is fantastic!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "We are sorry to hear this. What did you find difficult when trying to share responsibilities for caregiving and housework with your partner?",
+          "Option 1: I didn’t know what activities to do with my children": {
+            "Message": "Ask your child! By asking your child what their favourite activity is, you are showing them you care. Soon they might also start asking you to join them when they’re playing!"
+          },
+          "Option 2: I didn’t know how to support my partner": {
+            "Message": "Ask them! By telling your partner you want to help out but don’t know how, you are showing them you care and are interested in being involved. This can also help family members understand each other better."
+          },
+          "Option 3: I forgot to ask my partner if they needed help": {
+            "Message": "It can be difficult to remember to ask others what they need help with. Once you start offering to help however, others may realise you want to be involved and may ask for help when they need it!"
+          },
+          "Option 4: I forgot to ask for help": {
+            "Message": "It can be hard to ask for help. Sometimes we expect our partners to know we need help even if we don’t ask them. Once you start telling however, they will likely start offering to help more often in the future."
+          },
+          "Option 5: I didn’t have the time": {
+            "Message": "Sometimes it can be hard to find time during the day. Can you think of a time when you’re less busy? For example, maybe it is easier to help out with housework later in the evening when some of the children have gone to sleep. Try to see what works for you!"
+          },
+          "Option 6: I felt uncomfortable doing tasks I don’t normally do": {
+            "Message": "Be kind to yourself - trying something new is often hard at first! Give yourself time to adjust. Also remind yourself that helping your partner with these tasks benefits the whole family!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content on this?",
+        "Message for negative answer": "That is okay! Remember you can access this content at anytime by typing \"Help\". Chat to you later!"
+      }
+    },
+    "Technical information": {
+      "Id": "2e30ccdf-8251-4943-a1c9-476a2e6dbb61",
+      "Template_type": "c1"
+    }
+  }
+}

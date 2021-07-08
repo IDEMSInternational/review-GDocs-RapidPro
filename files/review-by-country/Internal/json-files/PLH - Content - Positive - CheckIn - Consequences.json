@@ -1,0 +1,45 @@
+{
+  "PLH - Content - Positive - CheckIn - Consequences": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you been able to use consequences when your child or teen did not follow instructions or forgot a household rule? (Yes/No)",
+        "Positive follow on question": "Well done for trying! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear that it went well! When you are able to stay calm, give your child a choice to follow an instruction, and follow through with fair a consequence, you teach your child responsibilities for their actions. Keep it up!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That's okay! What was difficult about using consequences?",
+          "Option 1: I got very angry with my child or teen and yelled at them": {
+            "Message": "When we take a pause before responding, it helps us to calm down and respond better. Next time your child or teen makes you angry, try to take a pause first. Even a few deep breaths can make a big difference!"
+          },
+          "Option 2: I forgot to give my child or teen a choice to comply before giving the consequence": {
+            "Message": "This is hard to remember! When you give your child a choice, you teach your child decision making skills. It does not always work, but when it does, it helps avoid having to give a consequence and a difficult situation later!"
+          },
+          "Option 3: My child or teen got very angry with me after I gave the consequence": {
+            "Message": "Sometimes our children will react in a negative way when receiving a consequence. If your child is younger than 9 and throws a tantrum, you should ignore your child's behaviour until it is over.  If your child is older, you might need to walk away until they calm down. "
+          },
+          "Option 4: My child or teen complained that the consequence was not fair": {
+            "Message": "Check to make sure your consequence is fair and reasonable. For example, if your child refuses to help put away their toys, try prohibiting playing with them for an evening instead of threatening to throw them away."
+          },
+          "Option 5: I forgot to follow through with the consequence": {
+            "Message": "We all make mistakes! The more consistent we are with our consequences, the more likely our children will choose to behave positively in the future."
+          },
+          "Option 6: I am giving too many consequences all the time": {
+            "Message": "If you find yourself always having to give consequences to your children for behaving badly, you might need to spend more positive time with them. It will help them feel more loved and secure...and you less stressed! "
+          },
+          "Option 7: My child or teen did not need a consequence because they were behaving well": {
+            "Message": "Great to hear that your child has been behaving well! The best approach is to avoid having to use consequences in the first place by keeping your child under a Sunshine of Positive Attention. Invest in quality time and praising your child's positive behaviour. Redirect works great for avoiding these behaviours, too!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "e994e4f6-2cee-4e31-ab79-b785805ce5f3",
+      "Template_type": "c1"
+    }
+  }
+}

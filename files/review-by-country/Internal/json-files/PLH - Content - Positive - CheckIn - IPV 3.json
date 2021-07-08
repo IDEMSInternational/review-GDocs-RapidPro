@@ -1,0 +1,45 @@
+{
+  "PLH - Content - Positive - CheckIn - IPV 3": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you tried sharing family responsibilities at home recently? (Yes/No)",
+        "Positive follow on question": "Excellent job! Sharing the workload benefits the whole family. How was your experience? (Great/Neutral/Bad)",
+        "Great response message": "That is fantastic!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "We are sorry to hear this. What was difficult for you about sharing family responsibilities?",
+          "Option 1: I forgot to ask my partner if they needed help": {
+            "Message": "This can be hard to remember! Establishing a routine around caregiving or housework tasks can sometimes be helpful. This also lets you talk to your partner or other adults about how to share the workload."
+          },
+          "Option 2: I didn’t know how to ask my partner if they needed help": {
+            "Message": "Talk to them! Talking with your partner about how you can share family responsibilities helps both of you understand each other better. It also shows that you care!"
+          },
+          "Option 3: I forgot to ask for help": {
+            "Message": "It is hard to remember to ask for help. Be kind to yourself if you forget to ask and try again another time. Asking for help and sharing family responsibilities benefits the whole family!"
+          },
+          "Option 4: I didn’t know how to ask for help": {
+            "Message": "It can be difficult to know how to ask for help. Try starting off with suggesting a task you would like help with. Being specific gives your partner a clearer idea of what they can support you with."
+          },
+          "Option 5: I didn’t know how to help": {
+            "Message": "Trying something new can be hard! To make it easier, ask your partner to do it together with you the first few times. Soon you’ll feel more confident doing it on your own!"
+          },
+          "Option 6: My partner didn’t have time to help": {
+            "Message": "It can be difficult to find time during the day sometimes! Can you think of a time when your partner might be less busy, such as early in the morning or later in the evening? Creating a routine around housework can also be helpful."
+          },
+          "Option 7: I felt uncomfortable doing tasks I don’t normally do": {
+            "Message": "Sharing responsibilities in the home benefits everyone! While trying something new can feel hard at first, soon you will start to feel more comfortable. If it helps, ask your partner to join you in the beginning!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content?",
+        "Message for negative answer": "That is okay! Remember you can access this content at anytime by typing \"Help\". Chat to you later!"
+      }
+    },
+    "Technical information": {
+      "Id": "1f60ca16-5d8e-4aa2-9c58-61b4441e1d1c",
+      "Template_type": "c1"
+    }
+  }
+}

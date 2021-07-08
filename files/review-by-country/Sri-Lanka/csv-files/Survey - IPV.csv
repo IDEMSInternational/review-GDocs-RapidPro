@@ -1,0 +1,36 @@
+category,subcategory,name,specification,text message,option 1,option 2,option 3,option 4,option 5,option 6,option 7,option 8,option 9,option 10,name of flow,flow id,node id
+Survey,IPV,,,Can we also ask you a few quick questions about your relationship with your partner?,Yes,No,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,be80982f-b34a-4be9-8e8b-ed3ce72fa78c
+Survey,IPV,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,50e5b8f8-9251-4a29-a43b-6ee07770276f
+Survey,IPV,,,"Thanks so much! When two people are in a relationship or live together, they usually have both good and bad moments. For the following questions, think about things you may have experienced from your partner.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,2f9b2bae-25b6-4c85-99c6-23a69589fb39
+Survey,IPV,,,It is okay if this is not a good time. We will try again tomorrow. Chat later!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,7e4e11a7-fe3f-4c23-b2aa-b12d27b50ee5
+Survey,IPV,,,It is okay if this is not a good time. Chat later!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,81474c81-c571-41c8-bd7b-b28fc44d8348
+Survey,IPV,,,"In the past week, how many times did you and your partner talk about your worries and feelings?
+
+If you don't want to answer that is okay, please type ""N"".",Never,Once,Few times,Many times,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,124f2b6c-b766-4c97-86d4-9c66f90cb1be
+Survey,IPV,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,d09546a0-ccc3-4c3d-b4a8-29255454df3d
+Survey,IPV,,,Good for you! Talking about challenges and our emotions can be hard. You are doing great!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,7d1b0843-23e8-4179-b7ff-9b7eaf8ac946
+Survey,IPV,,,Sorry to hear this was difficult. Sharing how we feel can sometimes be hard but talking about our feelings can help others understand and support you better. Good job for trying!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,8e34058d-0946-48bb-92b7-1966fa64710b
+Survey,IPV,,,"In the past week, how many times did you and your partner make a decision together?
+
+If you don't want to answer that is okay, please type ""N"".",Never,Once,Few times,Many times,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,6a396411-4588-4256-a1f9-1d577d9c6e91
+Survey,IPV,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,b75fbf38-0d20-4157-b57a-52105320bf0c
+Survey,IPV,,,It can be difficult to find the time to ask our partners for their opinions when we are making decisions. Good job for trying!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,bdd0c661-a3dd-40b3-8a2f-56f7a3efcc72
+Survey,IPV,,,Well done! Communicating and working together with your partner makes a difference!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,e1b997ad-5e53-4009-b23b-a6c0b75d9fab
+Survey,IPV,,,"In the past week, how many times did you and your partner do housework and caregiving tasks together? 
+
+If you don't want to answer that is okay, please type ""N"".",Never,Once,Few times,Many times,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,fd61a1a9-045d-45a0-a27a-cf035b202cf0
+Survey,IPV,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,67929d61-251f-4540-bf05-3621ca9ebd70
+Survey,IPV,,,Excellent job! Sharing the workload benefits both the whole family. You are a star!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,222595e8-955c-4b45-8cca-f411e7c73716
+Survey,IPV,,,Sorry to hear it was difficult for you. Establishing a routine around caregiving or housework tasks can sometimes be helpful. Good job for trying!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,a2518186-9200-478f-a5ce-bbfee2510506
+Survey,IPV,,,"In the past week, how many times did you explain your side of a disagreement to your partner in a respectful way?
+
+If you don't want to answer that is okay, please type ""N"".",Never,Once,Few times,Many times,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,a04a84e9-5641-4d12-b0ea-4c14f5571d1e
+Survey,IPV,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,876d8923-e248-48c0-9325-6211290d9ee1
+Survey,IPV,,,Good job! Resolving conflicts isn’t always easy. Great to hear it went well!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,651c4051-0374-4a82-b980-1eb2d34b3405
+Survey,IPV,,,Sorry to hear this was challenging. It can be hard to stay calm when we’re having a disagreement with others. It can be difficult to do but keep on trying and don’t give up!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,e3845abd-028a-4f75-9e9f-9bf5279338dc
+Survey,IPV,,,"Can we ask you a few more quick questions about your relationship with your partner? Everything you say will be completely private.
+
+If you do not want to answer any questions, it is completely okay. ",Yes,No,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,4170be5b-1509-41c3-8c7d-0b6251de499d
+Survey,IPV,,,"Sorry, I don't understand what you mean.",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,71f55851-d89c-4da4-858f-52901993d909
+Survey,IPV,,,"To answer these questions, click this link to take you to an external site for extra privacy: [URL]",,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,693834fa-9d82-4e10-826b-12e8b434e760
+Survey,IPV,,,That’s okay! It is alright if you do not want to answer these questions. Chat to you later!,,,,,,,,,,,PLH - Survey - IPV,45a9a69b-ac6a-4668-8705-32ef7b5d38fc,f2074ac5-21c7-4a41-8183-68db8bbba7d1

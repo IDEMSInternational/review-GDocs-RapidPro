@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - IPV 1": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you tried involving your partner when making decisions recently? (Yes/No)",
+        "Positive follow on question": "Well done! Communicating and working together with your partner makes a difference! (Great/Neutral/Bad)",
+        "Great response message": "That is fantastic!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "We are sorry to hear this. What did you find difficult when trying to involve your partner in making a decision?",
+          "Option 1: I didn’t have time to involve my partner": {
+            "Message": "It can be difficult to find the time to ask our partners for their opinions when we are making decisions. Can you think of a time during the day when both you and your partner might be less busy, such as early in the morning or later in the evening?"
+          },
+          "Option 2: I didn’t know how to involve my partner": {
+            "Message": "It can sometimes be hard to know how to involve your partner when making a decision. Sometimes all you need to do is to ask them what they think. This shows them you care and want them to be involved!"
+          },
+          "Option 3: I felt uncomfortable asking for my partner's opinion": {
+            "Message": "It can take time to get used to making decisions together. Give yourself time to adjust. Remember that by communicating with your partner and involving them in decision-making, they will start to feel more comfortable doing so too."
+          },
+          "Option 4: I forgot to involve my partner": {
+            "Message": "It can be hard to remember to involve our partners in decision making. If you forget, it’s important to try again! Asking them for their opinion shows them that you care and want them to be involved."
+          },
+          "Option 5: My partner reacted negatively to me when I tried": {
+            "Message": "Sorry to hear that your partner reacted negatively. Be proud of yourself for trying and be gentle with yourself. Remember you can always get extra support by typing \"Help\"."
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content on this?",
+        "Message for negative answer": "That is okay! Remember you can access this content at anytime by typing \"Help\". Chat to you later!"
+      }
+    },
+    "Technical information": {
+      "Id": "579303ad-beed-4562-83af-bba3850c350f",
+      "Template_type": "c1"
+    }
+  }
+}

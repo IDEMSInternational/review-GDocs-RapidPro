@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - Family": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to use the tips to support positive family relationships? (Yes/No)",
+        "Positive follow on question": "Well done for taking the time to do this. How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear it went well! Building supportive family relationships makes a happy and peaceful home!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What did you find challenging about supporting positive family relationships?",
+          "Option 1: I am finding it difficult to use positive language whilst communicating to my family": {
+            "Message": "We completely understand! Next time you feel yourself getting angry, try taking a deep breath in. This well help you stay calm and manage your emotions. You can do this! "
+          },
+          "Option 2: I don't know how to get others in my family to contribute to a supportive family environment": {
+            "Message": "We completely understand! You can try by modeling behaviour that you want to see in others. How we talk and behave is a big influence on how our children behave too! Try to talk kindly to everyone in the family, adults and children...and see what happens!"
+          },
+          "Option 3: I don't know how to show others that I am listening": {
+            "Message": "Sorry to hear that you are finding this challenging! Try summarising what someone has said before responding: “What I hear you saying is…”. This will show them that you have listened to what they said and also gives them the chance to clarify anything that may have been misunderstood. This helps build effective communication skills."
+          },
+          "Option 4: I feel tired and overwhelmed": {
+            "Message": "It is completely normal to experience this. Looking after family is difficult and can be tiresome. Try sharing your responsibilities with your household!"
+          },
+          "Option 5: I don't know how to contribute to a supportive family environment": {
+            "Message": "We completely understand! Start slowly and try doing nice things as a family weekly. You can let each family member decide what activity they would like to do as a family. This allows the family to bond in a fun way!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content?",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "410b5d59-67f8-4569-9257-f5f0de5f3bb8",
+      "Template_type": "c1"
+    }
+  }
+}

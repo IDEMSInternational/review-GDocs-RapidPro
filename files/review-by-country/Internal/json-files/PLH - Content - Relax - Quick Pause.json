@@ -1,0 +1,28 @@
+{
+  "PLH - Content - Relax - Quick Pause": {
+    "Content": {
+      "Set of messages 1": {
+        "Interaction message": "Hi! How are you feeling right now? Would you like to take a quick pause together? It might be helpful.",
+        "Message for negative answer": "That is okay! You can always type \"Help\" at anytime if you need an activity to help you relax or reduce stress. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a quick video to help you take a pause!",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Short_Pause.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message to help you take a pause!",
+          "Link": "﻿https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Short_Pause.mp3"
+        }
+      },
+      "Set of messages 2": {
+        "Message 1": "Sit down, close your eyes and listen to your breath as it goes in and out. Notice how you feel. When you are ready, open your eyes again. Everything is okay.",
+        "Message 2": "We hope that was helpful! Remember you can always type \"Help\" at anytime if you need an activity to help you relax or reduce stress. Chat to you later!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/calm_adult.jpg"
+      }
+    },
+    "Technical information": {
+      "Id": "d6a5e8a5-c174-43d5-aa10-ebb2482012a0",
+      "Template_type": "3"
+    }
+  }
+}

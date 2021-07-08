@@ -1,0 +1,42 @@
+{
+  "PLH - Content - Positive - CheckIn - Community safety": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to have a conversation with your child or teen about safe and unsafe places of the community? (Yes/No)",
+        "Positive follow on question": "Well done for making the time to do this! How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear that it went well! Discussing safe and unsafe places in community with your children, helps keep them safe!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What has been difficult for you about discussing safe and unsafe places with your child or teen?",
+          "Option 1: My child or teen and I disagreed on which areas were unsafe": {
+            "Message": "That is completely normal, well done for trying the activity! When we listen to our children or teenagers, even if we disagree, we learn to understand their thinking. Try and find time to do the activity again. This time, try to really listen and show you understand them before expressing your thoughts."
+          },
+          "Option 2: My child or teen identified the house of someone I trust as unsafe. I was shocked and did not know what to do": {
+            "Message": "That is a completely normal experience, it is shocking to learn that people who are close to us and who we trust may be a danger to our children. Find someone you can talk to about this, perhaps a friend or support service, so you can get the support your need. Remember to take a pause when you are stressed."
+          },
+          "Option 3: My child or teen insisted that a place like a bar is for them to visit. I don’t know how to convince them that it is not a safe area": {
+            "Message": "It is completely normal to experience this. Try creating a safe space to talk with your child or teen when you are both calm. Listen to their thoughts about why they feel a certain place is safe, and then share your thoughts on why you feel it is not safe. Think about making a rule together that allows them to still have fun but stay safe. Our children will listen better when we speak to them calmly."
+          },
+          "Option 4: As an adult, I feel I am responsible for protecting my child or teen. When I told my child or teen which areas are unsafe, they got angry": {
+            "Message": "Sorry to hear that you are finding this challenging. Our children may know things about our communities and technology that we are not aware of. When we actively involve our children in the mapping activity, they feel heard and valued, and it can be easier to come up with a plan that everyone agrees on."
+          },
+          "Option 5: It was hard to identify resources available in my community because I don’t know my community so well": {
+            "Message": "It is difficult to know every detail about our communities. Involve another family member or friend in your mapping activity. You can even visit some of the services available and ask what they do. The more we know, the better we can keep our families safe!"
+          },
+          "Option 6: I did not have any time to do this activity": {
+            "Message": "It can be hard to find time during your day, with work, chores, and everything else. Can you think of a time this week when you can spend at least 10 minutes chatting to your child or teen about safe and unsafe areas? This is really important!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "80e9a7b4-54c7-4b9e-adf6-0b55478f4eec",
+      "Template_type": "c1"
+    }
+  }
+}

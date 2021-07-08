@@ -1,0 +1,31 @@
+{
+  "PLH - Content - Relax - Anger management": {
+    "Content": {
+      "Default introduction": {
+        "Message": "Hello! We love our children and teenagers, but stress from caregiving and money can make us angry. Here is how we can maintain control and keep calm.",
+        "Interaction message": "Would you like to learn more about this tip?\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/misbehaving_children.jpg",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need an activity to help you relax or reduce stress. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a video to help you maintain control and keep calm when you get angry.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/When_we_are_angry.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message to help you maintain control and keep calm when you get angry.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/When_we_are_angry.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message 1": "Stress from caregiving can make us angry. Here is how we can maintain control and keep calm.",
+        "Message 2": "Think about what makes you angry? When does it happen? How do you normally react?\n\nPrevent anger from starting in the first place. Get some sleep or rest when you are tired. Try to eat something when you are hungry. Ask someone for support when you are feeling alone.",
+        "Message 3": "Here are some things that can prevent bad things from happening when you are angry: \n\n1. Cut back on drinking alcohol or don’t drink, especially when the kids are awake.\n2. Do you have weapons or things that can be used to hurt others? Lock them up, hide them or take them out of the home.\n3. It’s ok to have your children stay somewhere safe or take them to a place where they can get help.",
+        "Message 4": "Well done! You have added another skill to your Parenting Toolkit. Over the next few days, take 10 deep breaths or do some exercise when you feel angry. Learning how to manage your anger can help you avoid some difficult situations.\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id": "39f83807-d432-4b59-80d8-6061c761f59c",
+      "Template_type": "6"
+    }
+  }
+}

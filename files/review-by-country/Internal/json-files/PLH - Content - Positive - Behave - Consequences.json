@@ -1,0 +1,65 @@
+{
+  "PLH - Content - Positive - Behave - Consequences": {
+    "Content": {
+      "Introduction for timed content": {
+        "Message": "Hello! Today we are going to learn what we can do when our children are already misbehaving or have already misbehaved…",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Interaction message if already completed": "We know that you have already received this tip (well done!). Would you like to review it again?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "Default introduction": {
+        "Message": "Use consequences for refusing to follow instructions or forgetting household rules. Consequences help teach our children responsibility for what they do. They also allow discipline that is controlled. This is more effective than hitting or shouting. ",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" if you want to receive more tips about how to manage your child's behaviour."
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a video that explains how you can use consequences to discipline your child.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Consequences.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message that explains how you can use consequences to discipline your child.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Consequences.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message": "Children and teens often act disrespectfully or like they only care about themselves. Growing up is a difficult time when they are learning about who they are and how they want to be in the world. Luckily, there are other ways to discipline your teen without using violence…and they work well!",
+        "Interaction message": "Would you like to learn more?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "List of tips": {
+        "Message": "Giving calm consequences help teach our children responsibility for what they do. They also allow discipline that is controlled. This is more effective than hitting or shouting. \n\nHere are 5 tips for using consequences:\n\n",
+        "Option 1: Give a choice before consequence": {
+          "Message": "1. Give your child a choice to follow your instruction before giving them the consequence."
+        },
+        "Option 2: Stay calm but be firm": {
+          "Message": "2. Try to stay calm but firm when giving the consequence.\nIf you start yelling, it will just make things worse. Take a deep breath before you speak in a clear, calm, and firm voice."
+        },
+        "Option 3: Be realistic and follow through": {
+          "Message": "3. Be realistic and follow through\nMake sure you can follow through with the consequence. For example, taking away a teenager’s phone for a week is hard to enforce. Taking it away for one hour is more realistic."
+        },
+        "Option 4: Reconnect afterwards": {
+          "Message": "4. Reconnect afterwards. \nOnce the consequence is over, give your child a chance to do something good, and praise them for it."
+        },
+        "Option 5: Consequences for breaking rules": {
+          "Message 1": "5. Consequences for breaking rules\nConsequences can also be used when your children forget a household rule, like going to bed at a certain hour or doing schoolwork before T.V.",
+          "Message 2": "For example, you can tell your child that if they do not do their schoolwork before dinner, they cannot watch their favourite T.V. show that evening."
+        },
+        "Message for choosing another tip": "Please select another number if you want to learn more about using consequences:\n\n"
+      },
+      "Set of messages 2": {
+        "Message 1": "Here is a comic that shows a parent giving their child a choice to follow the instruction or receive a consequence.",
+        "Message 2": "Parent: “In 5 minutes it will be time to give me back the phone and start your school work.” \n\nTeen (distractedly): “Uh-huh…”\n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/consequences_comic_1.png",
+        "Message 3": "Parent: “5 minutes is up. Please give me the phone.” \n\nTeen: “No, I am not done. I just need to get to the next level.”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/consequences_comic_2.png",
+        "Message 4": "Parent: “You have a choice, either you give me the phone now, or you cannot use it after dinner.” \n\nTeen (not happy but agreeing): “Fine.”\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/consequences_comic_3.png",
+        "Message 5": "Parent: “Thank you for giving me the phone back, Carter. Now please do your school work. After that we can take a walk or play a game together.”\n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/consequences_comic_3.png",
+        "Message 6": "Well done! You have added another skill to your Parenting Toolkit! When your child is behaving badly, try responding in a calm way with a fair consequence. It will help them learn that their actions have an impact on themselves and others. It also teaches them about responsibility and respect!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id intro": "7f995aa0-ae29-44e3-b0ad-cd38af7b589e",
+      "Id tip": "e5fb19b6-addd-45cc-bad2-dd0861472e13",
+      "Template type": "4"
+    }
+  }
+}

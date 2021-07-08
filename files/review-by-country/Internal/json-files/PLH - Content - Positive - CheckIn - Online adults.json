@@ -1,0 +1,39 @@
+{
+  "PLH - Content - Positive - CheckIn - Online adults": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Were you able to follow the steps to stay safe online? (Yes/No)",
+        "Positive follow on question": "Well done for taking the time to do this. How did it go? (Great/Neutral/Bad)",
+        "Great response message": "We are happy to hear it went well! We spend a lot of time online, so it is important to create healthy and responsible online habits. This is important so that we can stay safe and continue enjoying the benefits of the digital world."
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "That is okay! What did you find difficult about online safety?",
+          "Option 1: I forgot what the risks and dangers are": {
+            "Message": "That is okay! Here is a list of some of the risks and dangers that you may encounter online:\n• Adults targeting people for sexual purposes on social media, gaming, and messaging platforms.\n• Harmful content – like violence, hating women, hating foreigners, encouraging suicide and self-harm, misinformation, pornography\n• Sharing personal information and sexual photos or videos.\n• Cyberbullying from other people and strangers."
+          },
+          "Option 2: I forgot how to set up set up technical fixes": {
+            "Message": "Sorry to hear that you are finding this challenging. Here is a review on quick technical fixes: \n• Turn on SafeSearch on your browser to filter adult content.\nhttps://www.internetmatters.org/blog/parental-controls/entertainment-search-engines/\n• Set up parental controls.\nhttps://www.internetmatters.org/parental-controls/\n• Set up strict privacy settings on online apps and games.\n https://www.internetmatters.org/blog/parental-controls/social-media/\n• Cover webcams when not in use."
+          },
+          "Option 3: I forgot how to seek help": {
+            "Message": "That is okay! Here are some websites where you can report to and seek help from:\nReport to INHOPE Hotlines and IWF portals to get support if you experience online violence or other things that are not acceptable.\n\nINHOPE Hotlines: https://www.inhope.org/EN#hotlineReferral\nIWF portals: https://report.iwf.org.uk/en\nChild Helpline: https://www.childhelplineinternational.org/"
+          },
+          "Option 4: I don't know how to create healthy and safe online habits": {
+            "Message": "Sorry to hear that you are finding this challenging. Try balancing the time that you spend online and offline. Set an amount of time that you can spend online and try it for a week. If you succeed, try adding a little bit more offline time every week. You can do this!"
+          },
+          "Option 5: I did not have the time for this activity": {
+            "Message": "It can be hard to find time during your day, with work, chores, and everything else. Can you think of even 30 minutes this week to do this activity? It will make a big difference in keeping you safe online. You can do it!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content?",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "6791c709-7314-4baa-ae3b-dfeccfe71fb4",
+      "Template_type": "c1"
+    }
+  }
+}

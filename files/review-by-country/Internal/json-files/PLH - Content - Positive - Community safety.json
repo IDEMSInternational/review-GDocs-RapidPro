@@ -1,0 +1,34 @@
+{
+  "PLH - Content - Positive - Community safety": {
+    "Content": {
+      "Default introduction": {
+        "Message": "Parents all over the world say they worry about keeping their children safe in the community and online.",
+        "Interaction message": "Would you like some tips on some simple ways to do this?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" if you want to learn more about how to how to keep your child safe in the community."
+      },
+      "List of tips": {
+        "Message": "Thanks! One helpful way is to create a map with your child or teen that identifies the safe and unsafe places in the community. Here are 3 simple steps:\n\n",
+        "Option 1: Draw a map of the important places in the community": {
+          "Message": "Step 1: What are important places in our community?\n\n• Get a piece of paper (or old newspaper or a cardboard box) and a pen.\n• Draw a map of your child or teen’s community, with pictures of all the main places like streets, your house, school, shops, places your teen visits...\n\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/safety_planning_2.png"
+        },
+        "Option 2: Identify which places are safe and unsafe": {
+          "Message": "Step 2:  Which places are safe and unsafe? \n\n• Discuss which areas on your map are safe for teenagers – CIRCLE these.\n• Discuss which areas on your map are unsafe for teenagers – CROSS those off. \n• What makes a place safe or unsafe? \n• Are there plans you could make together to keep your child or teen safer?\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/safety_planning_3.png"
+        },
+        "Option 3: Learn about where you can get support": {
+          "Message": "Step 3: Where can you get support?\n\n• Sometimes, we can find ourselves in trouble.\n• Discuss together where you and your child or teen can get support or help when you face a crisis – MARK those areas with a little object like a stone or piece of paper. \n• Some helpful places may include home, school, police station, clinic.\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/safety_planning_4.png"
+        },
+        "Option 4: Online map": {
+          "Message": "Step 4: Online map\n\n• Draw pictures of the apps and websites they use\n• Praise your child for how good they are at using the web!\n• Talk about which ones might be unsafe. Why?\n• Are there plans you could make together to make using the internet safer for your child and their friends?\n• It can really help for parents to learn about this in advance.\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/safety_planning_5.png"
+        },
+        "Message for choosing another tip": "Please select another number if you want to learn more about how to create a map with your child or teen that identifies the safe and unsafe places in the community:\n\n"
+      },
+      "Set of messages 1": {
+        "Message": "Well done! You have added another skill to your Parenting Toolkit! Spend some time creating a map with your child or teen that identifies the safe and unsafe places in your community. It will build trust and help keep them safe in the future.\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id": "0e983cc8-388d-4d56-b540-5c491edbc7a6",
+      "Template_type": "15"
+    }
+  }
+}

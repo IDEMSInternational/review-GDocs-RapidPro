@@ -1,0 +1,43 @@
+{
+  "PLH - Content - Positive - Behave - Crisis": {
+    "Content": {
+      "Introduction for timed content": {
+        "Message 1": "Today's Tip is about how we can support our teens when they experience really difficult situations. ",
+        "Message 2": "When our children share difficult experiences with us, we may initially get angry because we are afraid for them. But that is when we need to stay calm, listen, and be open.",
+        "Interaction message": "Do you want some tips that can help you respond in a more supportive way?",
+        "Interaction message if already completed": "We know that you have already received this tip (well done!). Would you like to review it again?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "Default introduction": {
+        "Message": "When our children share something that is especially troubling, we need to remember to stay calm, listen, and be open.",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" if you want to receive more tips about how to manage your child's behaviour."
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a video on how you can support your teen when they are experiencing difficult situations.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Crisis_Support.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message on how you can support your teen when they are experiencing difficult situations.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Crisis_Support.mp3"
+        }
+      },
+      "Set of messages 1": {
+        "Message 1": "Here are some things you can do when your teen shares something difficult with you:\n• Take a deep breath before you respond. \n• Listen to what your child is saying. Notice how they are feeling.\n• Notice how you feel. Ask yourself, \"What does my child need right now?\" \n• Reassure your child that you are there for them. \n• You can deal with the consequences later but right now your child needs you.\n• Discuss possible solutions or next steps to take action. \n• Remind your child again that you love them and thank them for sharing with you. ",
+        "Message 2": "Here is a comic that shows how you can support your child during a crisis.",
+        "Message 3": "Parent: “What’s wrong, my dear? Come and sit by me and tell me what happened.” \n\nChild: “It’s that person…they touched me…”\n\n(1)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/discosure_of_difficult_things_comic_1.png",
+        "Message 4": "Parent: “Take your time... I am listening.” \n\nChild: “… they held me down…told me I would be in trouble if I told anybody…”\n\n(2)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/discosure_of_difficult_things_comic_2.png",
+        "Message 5": "Parent: “I believe you. You are not in trouble. It is not your fault. This is a big thing and we will find a way to get the help you need. I wonder where we can go for help…?”\n\nChild: “The clinic? But could you come with me?”\n\n(3)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/discosure_of_difficult_things_comic_3.png",
+        "Message 6": "Parent: “Yes, they will know what to do. Of course, I will come with you. Remember, this is not your fault. I love you and we will get through this.” \n\nChild: “Thanks so much.”\n\n(4)\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/comic/discosure_of_difficult_things_comic_4.png",
+        "Message 7": "We understand that this can be really difficult. Please type \"Help\" if you want any extra support or guidance.",
+        "Message 8": "Well done! You have added another skill to your Parenting Toolkit! Try following these steps whenever your child shares something difficult. Supporting your child through a crisis will also teach them how to support others in difficult times. Good for you!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id intro": "834191e5-450d-4af3-b192-4350e4a7d457",
+      "Id tip": "8b191a0a-6f36-4b8b-8211-d0883ce2d564",
+      "Template type": "6"
+    }
+  }
+}

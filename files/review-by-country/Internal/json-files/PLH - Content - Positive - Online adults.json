@@ -1,0 +1,55 @@
+{
+  "PLH - Content - Positive - Online adults": {
+    "Content": {
+      "Introduction for timed content": {
+        "Message": "Hello! We are now spending a lot more time online. Being connected helps us stay positive…but it also presents risks and dangers.",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Interaction message if already completed": "We know that you have already received this tip (well done!). Would you like to review it again?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "Default introduction": {
+        "Message": "We are now spending a lot more time online. Being connected helps us stay positive…but it also presents risks and dangers.",
+        "Interaction message": "Would you like to learn more about this tip?",
+        "Message for negative answer": "That's okay! You can always type \"Help\" at anytime if you need any support with your children. Chat to you later!"
+      },
+      "Media": {
+        "Video": {
+          "Text": "Here's a video to help you keep yourself safe online.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/video/eng/Online_Safety.m4v"
+        },
+        "Audio": {
+          "Text": "Here's an audio message to help you keep yourself safe online.",
+          "Link": "https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/voiceover/resourceType/audio/eng/Online_Child_Safety.mp3"
+        }
+      },
+      "List of tips": {
+        "Message": "Here are 5 tips that can help you keep yourself safe online:\n\n",
+        "Option 1: Learn about the risks and dangers": {
+          "Message": "1. Learn about risks and dangers\n\n• Adults targeting people for sexual purposes on social media, gaming, and messaging platforms.\n• Harmful content – like violence, hating women, hating foreigners, encouraging suicide and self-harm, misinformation, pornography\n• Sharing personal information and sexual photos or videos.\n• Cyberbullying from other people and strangers."
+        },
+        "Option 2: Quick tech fixes": {
+          "Message": "2. Quick tech fixes:\n\n• Turn on SafeSearch on your browser to filter adult content.\nhttps://www.internetmatters.org/blog/parental-controls/entertainment-search-engines/\n• Set up parental controls.\nhttps://www.internetmatters.org/parental-controls/\n• Set up strict privacy settings on online apps and games.\n https://www.internetmatters.org/blog/parental-controls/social-media/\n• Cover webcams when not in use."
+        },
+        "Option 3: Create healthy and safe online habits": {
+          "Message": "3. Create healthy and safe online habits:\n\nYou can also create healthy and safe online habits like creating device-free spaces and times in your house (eating, playing, schoolwork, and sleeping)."
+        },
+        "Option 4: Maintain privacy": {
+          "Message 1": "4. Maintain privacy\n\nKeep personal information private, especially from strangers. – some people are not who they say they are!",
+          "Message 2": "Remember that what goes online stays online (messages, photos, and videos)."
+        },
+        "Option 5: Report and seek help": {
+          "Message": "5. Report and seek help\n\nReport to INHOPE Hotlines and IWF portals to get support if you experience online violence or other things that are not acceptable.\n\nINHOPE Hotlines: https://www.inhope.org/EN#hotlineReferral\nIWF portals: https://report.iwf.org.uk/en\nChild Helpline: https://www.childhelplineinternational.org/"
+        },
+        "Message for choosing another tip": "Please select another number if you want to learn another way to protect yourself online:\n\n"
+      },
+      "Set of messages 1": {
+        "Message": "Well done! You have added another skill to your Parenting Toolkit! Over the next few days, try to use one of these tips for online safety. Digital parenting is just like parenting in the real world. You have taken a BIG STEP to keeping your child safe online. Good for you!\n https://idems-media-recorder.web.app/storage/project/PLH/subproject/Rapidpro/deployment/Global/resourceGroup/image/universal/congratulation.jpg"
+      }
+    },
+    "Technical information": {
+      "Id intro": "b6b6dd4d-fe12-4458-b879-316b6a040f69",
+      "Id tip": "f6139e3a-1a19-4cf3-aac9-ec710afac3c6",
+      "Template type": "2"
+    }
+  }
+}

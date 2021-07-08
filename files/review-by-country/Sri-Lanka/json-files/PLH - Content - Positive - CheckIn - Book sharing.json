@@ -1,0 +1,33 @@
+{
+  "PLH - Content - Positive - CheckIn - Book sharing": {
+    "Content": {
+      "Positive pathway": {
+        "Check-in message": "Hi! Have you tried sharing a book with your child recently? (Yes/No)",
+        "Positive follow on question": "Well done! Book sharing is a great learning tool for your children! How was your experience? (Great/Neutral/Bad)",
+        "Great response message": "That is great!"
+      },
+      "Challenge pathway (Neutral/Bad or No)": {
+        "List of challenges": {
+          "Message": "We understand! What did you find difficult about trying to share a book with your child?",
+          "Option 1: I didn’t know how to involve my child": {
+            "Message": "It is completely normal to experience this challenge, and it can be difficult to know what to do at first. Next time try sitting with your child and a book. Let your child take the lead and follow their interest. You don't even need to read...just looking at the pictures together and talking about them works!"
+          },
+          "Option 2: My child had no interest in book sharing": {
+            "Message": "It is completely normal to experience this challenge, it can be difficult to get your child's attention. Next time try letting your child choose the book. It can even be a magazine or colouring the book. You don't even need to read...just looking at the pictures together and talking about them works!"
+          },
+          "Option 3: I didn't have the time": {
+            "Message": "It is completely normal to experience this challenge, it can be really difficult to find the time our busy lives. Can you think of a time during the day when you may be less busy, such as early in the morning or after dinner?  It will make a big difference in improving your relationship AND their learning abilities!"
+          }
+        }
+      },
+      "Offer for review": {
+        "Message": "Would you like to review the content? ",
+        "Message for negative answer": "That is okay! Remember you can access parenting content at anytime by typing \"Help\". Chat to you later! "
+      }
+    },
+    "Technical information": {
+      "Id": "0e07b269-af19-4446-b597-a6ab5614cc00",
+      "Template_type": "c1"
+    }
+  }
+}
