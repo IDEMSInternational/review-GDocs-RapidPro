@@ -29,6 +29,12 @@ for (file in files_urls) {
         delete files_urls["Help - Settings - Settings"];
 
     }
+    else if (file == "Content - Positive - IPV - IPV") {
+        Object.defineProperty(files_urls, "Content - Positive - IPV",
+            Object.getOwnPropertyDescriptor(files_urls, "Content - Positive - IPV - IPV"));
+        delete files_urls["Content - Positive - IPV - IPV"];
+
+    }
 }
 
 files_urls["Supportive - Covid"] = files_urls["Supportive - Other"];
