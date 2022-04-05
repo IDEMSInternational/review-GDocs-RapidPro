@@ -5,7 +5,7 @@ var converter = require("json-2-csv");
 
 let input_args = process.argv.slice(2);
 
-var input_path = path.join(__dirname, "../../files/input-flows/plh_international_flavour.json");
+var input_path = path.join(__dirname, "../../files/input-flows/plh-international-flavour.json");
 var full_json_string = fs.readFileSync(input_path).toString();
 var full_obj = JSON.parse(full_json_string);
 
@@ -37,7 +37,7 @@ file_4.name_of_file = "Survey - Parenting & Behaviour";
 flows_for_spreadsheet.push(file_4);
 
 file_5 = {};
-file_5.list_of_flows = ["PLH - Survey - COVID19 Experience"];
+file_5.list_of_flows = ["PLH - Survey - COVID19 Experience and bereavement"];
 file_5.name_of_file = "Survey - COVID19 Experience";
 flows_for_spreadsheet.push(file_5);
 
@@ -173,7 +173,10 @@ file_29.name_of_file = "Safeguarding - Safeguarding";
 flows_for_spreadsheet.push(file_29);
 
 
-
+file_30 = {};
+file_30.list_of_flows = ["PLH - Content - Extra - Covid bereavement"];
+file_30.name_of_file = "Content - Extra - Covid bereavement";
+flows_for_spreadsheet.push(file_30);
 
 
 
