@@ -20,7 +20,7 @@ var lang = input_args[2];
 var flows_for_spreadsheet = [];
 
 file_1 = {};
-file_1.list_of_flows = ["PLH - Welcome - Entry", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Initial registration - Nickname","PLH - Welcome - Initial registration - Child nickname","PLH - Welcome - Tips","PLH - Content - Relax - Keeping calm"];
+file_1.list_of_flows = ["PLH - Welcome - Entry", "PH - PLH - Welcome - Entry - Set language","PLH - Welcome - Entry - Consent", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Initial registration - Nickname","PLH - Welcome - Initial registration - Child nickname","PLH - Welcome - Tips"];
 file_1.name_of_file = "Welcome - Welcome";
 flows_for_spreadsheet.push(file_1);
 
