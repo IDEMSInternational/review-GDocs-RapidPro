@@ -501,19 +501,19 @@
  },
  {
    "name": "PLH - Content - Positive - Education",
-   "type": "no"
+   "type": "2"
  },
  {
    "name": "PLH - Content - Positive - Education - Timed intro",
-   "type": "no"
+   "type": "5"
  },
  {
    "name": "PLH - Content - Positive - Family",
-   "type": "no"
+   "type": "2"
  },
  {
    "name": "PLH - Content - Positive - Family - Timed intro",
-   "type": "no"
+   "type": "5"
  },
  {
    "name": "PLH - Content - Positive - Introduction",
@@ -605,27 +605,27 @@
  },
  {
    "name": "PLH - Content - Time - One on one time baby",
-   "type": "no"
+   "type": "4"
  },
  {
    "name": "PLH - Content - Time - One on one time baby - Timed intro",
-   "type": "no"
+   "type": "5"
  },
  {
    "name": "PLH - Content - Time - One on one time child",
-   "type": "no"
+   "type": "4"
  },
  {
    "name": "PLH - Content - Time - One on one time child - Timed intro",
-   "type": "no"
+   "type": "5"
  },
  {
    "name": "PLH - Content - Time - One on one time teen",
-   "type": "no"
+   "type": "4"
  },
  {
    "name": "PLH - Content - Time - One on one time teen - Timed intro",
-   "type": "no"
+   "type": "5"
  },
  {
    "name": "PLH - Feedback - Feedback for content",
@@ -728,10 +728,6 @@
    "type": "sheet"
  },
  {
-   "name": "PLH - Help - Emergency",
-   "type": "sheet"
- },
- {
    "name": "PLH - Help - Entry",
    "type": "sheet"
  },
@@ -757,10 +753,6 @@
  },
  {
    "name": "PLH - Help - Settings - Leave the program",
-   "type": "sheet"
- },
- {
-   "name": "PLH - Help - Settings - Leave the program - Interview",
    "type": "sheet"
  },
  {
@@ -1028,7 +1020,7 @@
    "type": "sheet"
  },
  {
-   "name": "PLH - Welcome - Entry - No consent",
+   "name": "PLH - Welcome - Entry - Consent",
    "type": "sheet"
  },
  {

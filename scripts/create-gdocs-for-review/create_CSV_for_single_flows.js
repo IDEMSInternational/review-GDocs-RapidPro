@@ -5,19 +5,22 @@ var converter = require("json-2-csv");
 
 let input_args = process.argv.slice(2);
 
-var input_path = path.join(__dirname, "../../files/input-flows/plh-international-flavour.json");
+var input_path = input_args[0];
 var full_json_string = fs.readFileSync(input_path).toString();
 var full_obj = JSON.parse(full_json_string);
 
 var obj = extract_bits_to_be_translated(full_obj);
 
-var country = input_args[0];
+var country = input_args[1];
+
+var lang = input_args[2];
+
 
 
 var flows_for_spreadsheet = [];
 
 file_1 = {};
-file_1.list_of_flows = ["PLH - Welcome - Entry", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Initial registration - Nickname","PLH - Welcome - Initial registration - Child nickname","PLH - Welcome - Tips","PLH - Content - Relax - Keeping calm"];
+file_1.list_of_flows = ["PLH - Welcome - Entry", "PH - PLH - Welcome - Entry - Set language","PLH - Welcome - Entry - Consent", "PLH - Welcome - Initial registration", "PLH - Welcome - Initial registration - Gender", "PLH - Welcome - Initial registration - Age",  "PLH - Welcome - Initial registration - Relationship","PLH - Welcome - Initial registration - Age group for tips","PLH - Welcome - Initial registration - Media", "PLH - Welcome - Initial registration - Nickname","PLH - Welcome - Initial registration - Child nickname","PLH - Welcome - Tips"];
 file_1.name_of_file = "Welcome - Welcome";
 flows_for_spreadsheet.push(file_1);
 
@@ -259,15 +262,25 @@ async function outputFiles() {
         //files_output_paths.push(output_path)
 
 
-        console.log(output_path)
+        //console.log(output_path)
         /* converter.json2csv(rows, (err, csvString) => {
             fs.writeFileSync(output_path, csvString);
             //console.log("CSV " + flows_for_spreadsheet[N_file].name_of_file + " is written");
             console.log(output_path + " is written")
         }); */
         
+      
+
+
         let csvString = await converter.json2csvAsync(rows);
         fs.writeFileSync(output_path, csvString);
+
+        if (lang){
+            let rows_lang = translate_rows(rows,lang,full_obj.flows)
+            let output_path_lang = path.join(__dirname, "../../files/review-by-country/"+ country + "_" + lang + "/csv-files/" + flows_for_spreadsheet[N_file].name_of_file + ".csv");
+            let csvStringLang = await converter.json2csvAsync(rows_lang);
+            fs.writeFileSync(output_path_lang, csvStringLang);
+        }
         /*wrapperJson2Csv(output_path, rows).then((csv) => {
             console.log(output_path)
             fs.writeFile(output_path, csv, function (err, result) {
@@ -337,3 +350,21 @@ function extract_bits_to_be_translated(obj) {
     }
     return bits_to_translate;
 }
+
+
+
+function translate_rows(rows,lang,flows){
+    let rows_lang = JSON.parse(JSON.stringify(rows));
+    rows_lang.forEach(r => {
+        let corresp_flow = flows.filter(fl => (fl.name == r["name of flow"]))[0];
+        if (corresp_flow.localization[lang][r["node id"]]){
+            r["text message"] = corresp_flow.localization[lang][r["node id"]].text[0];
+            for (let qr = 0; qr< corresp_flow.localization[lang][r["node id"]].quick_replies.length; qr++){
+                r["option " + String(qr+1)] = corresp_flow.localization[lang][r["node id"]].quick_replies[qr];
+            }
+        }
+    });
+
+    return rows_lang
+}
+
